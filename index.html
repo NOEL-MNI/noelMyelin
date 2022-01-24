@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<title>3D Myeloarchitectonic MRI Atlas based on Vogt-vogt Histological Data</title>
+	<link href="https://mincss.com/entireframework.min.css" rel="stylesheet" type="text/css">
+	<style>
+		.hero {
+			background: #eee;
+			padding: 20px;
+			border-radius: 10px;
+			margin-top: 1em;
+		}
+
+		.hero h1 {
+			margin-top: 0;
+			margin-bottom: 0.3em;
+			font-size: 32px;
+		}
+
+		.c4 {
+			padding: 10px;
+			box-sizing: border-box;
+		}
+
+		.c4 h3 {
+			margin-top: 0;
+		}
+
+		.c4 a {
+			margin-top: 10px;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<nav class="nav" tabindex="-1" onclick="this.focus()">
+	<div class="container">
+		<a class="pagename current" href="#">NOEL MYELIN ATLAS</a>
+	</div>
+	</nav>
+	<div class="container">
+		<div class="hero">
+			<h1 id="myeloarchitectonic-mri-atlas-based-on-vogt-vogt-histological-data">
+			3D MYELOARCHITECTONIC MRI ATLAS BASED ON VOGT-VOGT HISTOLOGICAL DATA</h1>
+			<p>This repository contains a 3D MRI atlas containing detailed
+			myeloarchitectural parcellations derived from Vogt &amp; Vogt
+			histological data. It is based on the popular MNI-Colin27 brain template
+			and has been validated on in-vivo MRI data. As such, this atlas provides
+			fine-grained cortical parcellations and is intended for use with both
+			structural and functional imaging data and associated grey-level index
+			maps provide information on myelin density per individual cortical
+			field.</p>
+		</div>
+
+		<p>If you are implementing this atlas in your own research, please
+		reference this publication: <a href="https://doi.org/10.xxxxxxxx", target="_blank">
+		https://doi.org/10.xxxxxxxx</a></p>
+
+		<p>The atlas includes:
+		<ol>
+		<li>Vogt-Vogt annotation files in MNI space
+		(<code>*.annot</code>) for both hemispheres for use with FreeSurfer </li>
+		<li>Grey-level index maps in <code>Conte69</code> and <code>Colin27</code>
+		space (<code>*.gii)</code> </li>
+		<li>Volumetric atlas versions in MNI space in
+		NifTi file-format for both hemispheres (<code>vogt_multilabel_{rh,lh}.nii.gz</code>)
+		with correspoding label descriptions </li>
+		<li>The <code>Colin27</code> brain template in NifTi format
+		to facilitate registration purposes (<code>colin27_T1.nii.gz</code>)</li>
+		</ol></p>
+		<h2 id="getting-started">Getting started</h2>
+		<p>We provide code to apply the atlas to individual data which has been
+		processed with FreeSurfer. Please note that subjects needs to be
+		processed with the recon -all pipeline prior to atlas application.</p>
+		<h2 id="usage-notes">Usage notes</h2>
+		<p>The atlas can be applied to individual data through the FreeSurfer
+		command line interface and is fully scriptable. Volumetric nifti-files
+		are intended for use with imaging toolkits that do not use surface
+		processing, e.g. SPM</p>
+		<h2 id="how-to-get-involved">How to get involved</h2>
+		<p>If you’ve found a bug, are experiencing a problem, or have questions,
+		create a new issue with some information about it! Furthermore, we would
+		appreciate your feedback on how implementing this atlas has helped your
+		project.</p>
+		<h2 id="need-help-or-questions">Need help or questions</h2>
+		<p>If you have any questions or need help, feel free to email us at
+		<code>nfoit@bic.mni.mcgill.ca</code></p>
+		<h2 id="licence">Licence</h2>
+		<p>The MNI myeloarchitectonic atlas is licensed under the BDS-3 license,
+		while FreeSurfer environment uses a more restrictive framework. Details
+		and usage notes can be found here: <a
+		href="https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSoftwareLicense", target="_blank">https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSoftwareLicense</a>.
+		Further information on the MNI-Colin27 brain template is available from
+		<a
+		href="https://www.bic.mni.mcgill.ca/ServicesAtlases/Colin27", target="_blank">https://www.bic.mni.mcgill.ca/ServicesAtlases/Colin27</a></p>
+
+		<div class="hero">
+			<h2>Downloads</h2>
+			<code>
+				<!-- tree -H '.' -L 2 --noreport --charset utf-8 -o index.html -->
+				.<br>
+				├── <a href="./LICENSE.txt", target="_blank">LICENSE.txt</a><br>
+				├── <a href="./README.md", target="_blank">README.md</a><br>
+				├── <a href="./colin27_T1.nii.gz", target="_blank">colin27_T1.nii.gz</a><br>
+				├── <a href="">original_publications</a><br>
+				│   ├── <a href="./original_publications/1969_Hopf_Photometric_studies_parietal.pdf", target="_blank">1969_Hopf_Photometric_studies_parietal.pdf</a><br>
+				│   ├── <a href="./original_publications/Batsch_1955.pdf", target="_blank">Batsch_1955.pdf</a><br>
+				│   ├── <a href="./original_publications/BrockhausCortexclaustralis.pdf", target="_blank">BrockhausCortexclaustralis.pdf</a><br>
+				│   ├── <a href="./original_publications/Brockhaus_1940.pdf", target="_blank">Brockhaus_1940.pdf</a><br>
+				│   ├── <a href="./original_publications/Hopf1954_Myeloarchitektonik.pdf", target="_blank">Hopf1954_Myeloarchitektonik.pdf</a><br>
+				│   ├── <a href="./original_publications/Hopf1968_Photometric_studies_temporal.pdf", target="_blank">Hopf1968_Photometric_studies_temporal.pdf</a><br>
+				│   ├── <a href="./original_publications/Hopf_Extinction_method.pdf", target="_blank">Hopf_Extinction_method.pdf</a><br>
+				│   ├── <a href="./original_publications/Strassburger_1937b.pdf", target="_blank">Strassburger_1937b.pdf</a><br>
+				│   ├── <a href="./original_publications/Vogt1919_physiologische%20Bedeutung%20der%20architektonischen%20Rindenfelderung.pdf", target="_blank">Vogt1919_physiologische Bedeutung der architektonischen Rindenfelderung.pdf</a><br>
+				│   ├── <a href="./original_publications/Vogt1955_Schlaefenlappen-temporal_lobe.pdf", target="_blank">Vogt1955_Schlaefenlappen-temporal_lobe.pdf</a><br>
+				│   └── <a href="./original_publications/Vogt_1911.pdf", target="_blank">Vogt_1911.pdf</a><br>
+				├── <a href="">vogt-labels_final</a><br>
+				│   ├── <a href="./vogt-labels_final/lh.vogt_vogt.annot", target="_blank">lh.vogt_vogt.annot</a><br>
+				│   ├── <a href="./vogt-labels_final/nieuwenhuys_GLI_from_colin27_to_conte69_32k.label.gii", target="_blank">nieuwenhuys_GLI_from_colin27_to_conte69_32k.label.gii</a><br>
+				│   ├── <a href="./vogt-labels_final/nieuwenhuys_GLI_on_colin27_rh.gii", target="_blank">nieuwenhuys_GLI_on_colin27_rh.gii</a><br>
+				│   └── <a href="./vogt-labels_final/rh.vogt_vogt.annot", target="_blank">rh.vogt_vogt.annot</a><br>
+				└── <a href="">vogt-labels_nifti</a><br>
+				&nbsp;&nbsp;&nbsp; ├── <a href="./vogt-labels_nifti/label-descriptions_vogt-labels.txt", target="_blank">label-descriptions_vogt-labels.txt</a><br>
+				&nbsp;&nbsp;&nbsp; ├── <a href="./vogt-labels_nifti/vogt_multilabel_lh.nii.gz", target="_blank">vogt_multilabel_lh.nii.gz</a><br>
+				&nbsp;&nbsp;&nbsp; └── <a href="./vogt-labels_nifti/vogt_multilabel_rh.nii.gz", target="_blank">vogt_multilabel_rh.nii.gz</a><br>
+			</code>
+		</div>
+	</div>
+<br>
+</body>
+</html>
