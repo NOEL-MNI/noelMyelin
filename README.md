@@ -1,4 +1,4 @@
-3D MYELOARCHITECTONIC MRI ATLAS BASED ON VOGT-VOGT HISTOLOGICAL DATA
+A Whole-Brain 3D Myeloarchitectonic Atlas: Mapping the Vogt-Vogt Legacy to the Cortical Surface
 =========
 This repository contains a 3D MRI atlas containing detailed myeloarchitectural parcellations derived from Vogt & Vogt histological
 data. It is based on the popular MNI-Colin27 brain template and has been validated on in-vivo MRI data.
