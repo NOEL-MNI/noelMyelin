@@ -5,9 +5,7 @@ data. It is based on the popular MNI-Colin27 brain template and has been validat
 As such, this atlas provides fine-grained cortical parcellations and is intended for use with both structural and functional imaging data and associated grey-level index maps provide information on myelin density per individual cortical field.
 
 If you are implementing this atlas in your own research, please reference this [publication](https://doi.org/10.1101/2022.01.17.476369):
-```
-Foit, N. A., Yung, S., Lee, H. M., Bernasconi, A., Bernasconi, N., & Hong, S. J. (2022). A Whole-Brain 3D Myeloarchitectonic Atlas: Mapping the Vogt-Vogt Legacy to the Cortical Surface. bioRxiv.
-```
+> Foit, N. A., Yung, S., Lee, H. M., Bernasconi, A., Bernasconi, N., & Hong, S. J. (2022). A Whole-Brain 3D Myeloarchitectonic Atlas: Mapping the Vogt-Vogt Legacy to the Cortical Surface. bioRxiv.
 
 The atlas includes:
 1. Vogt-Vogt annotation files in MNI space (`*.annot`) for both hemispheres for use with FreeSurfer
