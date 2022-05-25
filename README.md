@@ -36,6 +36,6 @@ If you have any questions or need help, feel free to email us at `nfoit@bic.mni.
 
 Licence
 ----
-The MNI myeloarchitectonic atlas is licensed under the BDS-3 license, while FreeSurfer environment uses a more restrictive framework.
+The MNI myeloarchitectonic atlas is licensed under the BSD-3 license, while FreeSurfer environment uses a more restrictive framework.
 Details and usage notes can be found here: [https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSoftwareLicense](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSoftwareLicense). Further information on the MNI-Colin27 brain
 template is available from [https://www.bic.mni.mcgill.ca/ServicesAtlases/Colin27](https://www.bic.mni.mcgill.ca/ServicesAtlases/Colin27)
