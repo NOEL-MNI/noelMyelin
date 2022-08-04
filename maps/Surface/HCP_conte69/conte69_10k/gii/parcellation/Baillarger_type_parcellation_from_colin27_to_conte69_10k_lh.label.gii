@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[Final/maps/Surface/Freesurfer_COLIN27/gii/parcellation/Baillarger_type_parcellation_on_colin27_lh.label.gii:
+/local_raid1/01_software/workbench/bin_linux64/../exe_linux64/wb_command -metric-label-import /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/Baillarger_type_parcellation_on_colin27_lh.gii /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/../Final/Baillarger_label_fn.txt /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/Baillarger_type_parcellation_on_colin27_lh.label.gii -drop-unused-labels
+
+COLIN27_FS/surf/lh.sphere.reg.reg_LR.native.surf.gii:
+/local_raid1/01_software/workbench/bin_linux64/../exe_linux64/wb_command -surface-sphere-project-unproject /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.sphere.reg.native.surf.gii /local_raid1/01_software/HCPpipelines/global/templates/standard_mesh_atlases//fs_L/fsaverage.L.sphere.164k_fs_L.surf.gii /local_raid1/01_software/HCPpipelines/global/templates/standard_mesh_atlases//fs_L/fs_L-to-fs_LR_fsaverage.L_LR.spherical_std.164k_fs_L.surf.gii /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.sphere.reg.reg_LR.native.surf.gii
+
+/local_raid1/01_software/HCPpipelines/global/templates/standard_mesh_atlases/L.sphere.10k_fs_LR.surf.gii:
+/local_raid1/01_software/workbench/bin_linux64/../exe_linux64/wb_command -surface-flip-lr /local_raid1/01_software/HCPpipelines/global/templates/standard_mesh_atlases/R.sphere.10k_fs_LR.surf.gii /local_raid1/01_software/HCPpipelines/global/templates/standard_mesh_atlases/L.sphere.10k_fs_LR.surf.gii
+
+/local_raid1/01_software/HCPpipelines/global/templates/standard_mesh_atlases/cortical_surface/S900.L.midthickness_MSMAll.10k_fs_LR.surf.gii:
+/data_/mica1/01_programs/workbench/bin_linux64/../exe_linux64/wb_command -surface-resample /local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Margulies_example/gradient_data/templates/S900.L.midthickness_MSMAll.32k_fs_LR.surf.gii /local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Margulies_example/gradient_data/templates/S900.L.sphere.32k_fs_LR.surf.gii /local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Pipelines-3.21.0/global/templates/standard_mesh_atlases/L.sphere.10k_fs_LR.surf.gii BARYCENTRIC /local_raid/seokjun/01_project/08_Autism_abide/01_analysis/functional_gradient_project/Margulies_example/gradient_data/templates/S900.L.midthickness_MSMAll.10k_fs_LR.surf.gii
+
+COLIN27_FS/surf/lh.roi.shape.gii:
+/local_raid1/01_software/workbench/bin_linux64/../exe_linux64/wb_command -metric-math 'thickness > 0' /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.roi.shape.gii -var thickness /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.thickness.shape.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.4.2
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 092b7f2f7dfab0f9ea7cbb6c1db2e5dffd2c1045
+Commit Date: 2020-01-07 17:24:23 -0600
+Compiled with OpenMP: YES
+Compiler: g++ (/home/caret/gcc/install/gcc-4.8.5/bin)
+Compiler Version: 4.8.5
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/local_raid1/01_software/workbench/bin_linux64/../exe_linux64/wb_command -label-resample Final/maps/Surface/Freesurfer_COLIN27/gii/parcellation/Baillarger_type_parcellation_on_colin27_lh.label.gii COLIN27_FS/surf/lh.sphere.reg.reg_LR.native.surf.gii /local_raid1/01_software/HCPpipelines/global/templates/standard_mesh_atlases/L.sphere.10k_fs_LR.surf.gii ADAP_BARY_AREA Final/maps/Surface/HCP_conte69/conte69_10k/gii/Baillarger_type_parcellation_from_colin27_to_conte69_10k_lh.label.gii -area-surfs COLIN27_FS/surf/lh.white.gii /local_raid1/01_software/HCPpipelines/global/templates/standard_mesh_atlases/cortical_surface/S900.L.midthickness_MSMAll.10k_fs_LR.surf.gii -current-roi COLIN27_FS/surf/lh.roi.shape.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0.901961" Green="0.901961" Blue="0.901961" Alpha="1"><![CDATA[Nodata]]></Label>
+      <Label Key="2" Red="0.207843" Green="0.47451" Blue="0.992157" Alpha="1"><![CDATA[Astriate]]></Label>
+      <Label Key="3" Red="0.0627451" Green="0.745098" Blue="0.729412" Alpha="1"><![CDATA[Bistriate]]></Label>
+      <Label Key="4" Red="0.784314" Green="0.756863" Blue="0.160784" Alpha="1"><![CDATA[Unistriate]]></Label>
+      <Label Key="5" Red="0.976471" Green="0.984314" Blue="0.0823529" Alpha="1"><![CDATA[Unitostriate]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztXIuO4yAM3Cbd///l25W2ErL8GD+T9og06jWYGTBgE5q959fX1/mDxw+ef58U6/3TwFpPurQy7bK0z7+2SuD65kH08mhwbUb8jeh6L0sX7WuF5qSexFWtpfFU6Wg8mf5I/CtPJ38F94vf0onwamPg4fXwIZyV7XsWcVX0z9svyoXMtUwOqcg/FdyeXLjmoS/AHrGJ9o+2Wbon+QTZH1TuGbw6nG6kXesV6XfFONG4MK35/YdqTcpB9STdirnD6XB6WZ1KDcn3Fn8kPnn4r+TW5iPCKWloc1zzr+Z3a0yke4jOeiG+ku5zl5dHuiSeivrRupl63joee9QWsbNstHLPffSS4vEdcTDI5oTpPl+lefXYvTsmxq17TnbOfW1tZTQ7eCvbx/FxccrLxXGgXAfAoXHR2IpySLEZaYcV16P1rLpSrsjmmk9FdxyM+lkbI28MqYwNaJ+RfndoWrrT/azsl7XuKzW0+FHRfmveZ32TmXuRmIxwR+M9x5vJHxxnBdcD5PLGwCgPsvdAc0RH/Uhd1HcR0DMXxLeonWWL2Fk2aLl1n/JU59DXuaFlFx3HrvyS1aJnsZk+e3Ocpjut2aWXmT9VWsfyyc2drI41byc0Ovm7uDt4qznvyHUHjg0cSJxZbTh7qwy9T+9JsVeKM+iZV+bZX9OPAs05SPsQHU9fr/Z5hX8tvg5Njx+mdLxaSP2oTtR20m+d/F3cHbwbOrT4aMVPzcbKe1KZlTeRelIueIL2dB1FbJHclLHRyhE/cHmSfo/kcI5Xev70aEfx3cRLNSygfsj63TMOnbpe/Qotj2alXtTXU7oTOlnujrUgPQtmx6aS87F8bmxUwJPzEFsth6E2WrlUhuhauOI86gU0LmXi1J19cKdzwHfVm9Ka0OnW6OTv4u5YL9WclXx34pmOjRtzoLmW5t+O57lfHAKX5zxuWjejeRAdVDuikznj9Op4xkzTovGGG6dqHQ+/5mNEw9tObUxWfsQHp8CT5T4d3DTuaHwUKKcX1Xwb7wH0XcPV/uo2dyKa17yo2ju8g+605tV6U1oTOu/MP8Wb3RNzXJX7UpSP7mUze02Oq4Iny7FxPaT5UDFPuLWA5nVPHJfKK/20tt/ar1TqoZoV2poONxaV8886w5nQ6dbo5O9sf5abO8vLjKs0P72c1lxH+TzrJsLBcUU5zkKOaN0zUW/imdPzbIrG5qgNWm7Vqdhrr0D7PQn0vb1OvU5d5D3FKm1Ep2qsJ3QQjYxOt7+u5O/yzRQner6BckXaR7kiPBF/ZcfxDNaP5AZPHboX0eyp7ZOx5WyonWTD5UNuH03LHqSMu0/nbsdZWiaXW+e7U2ekEUzl0jvoduqdDp0KLc/+vFqngtPyYba9XHlmDUo+yP7WwvFa8SQybtq5hsWPthFpL+JDhCvCQ7mybcnUR+f6HXPGO0Ga79o+Q7vfDavt1f6o4P+tGzkLvpPfNzY+GdXrCo0pEc478lVwHUmeY+GYrH846kq/7Wj1uLxh+YrLMZ5+eXKhVW7larSMu6/dk/59p/3WVLuu1vw0vU/SeWf+Lu67xIuNjY2NjY2NjSlI+x9kP8o9h1FEf59Af7eJ2KO2EbtI+dMoy0DzefU8mn4OpLp3WDcbGxt+SFcFh4cLubL1JZ5o3a46HbaIXaZcKnsC99bvj+WzMsdYeTqK7DtK0bZUaXp0o5qanrYPrn73a9X37jmz8wzZb2a5PfvSaf7IvlmbI9I4ZtZ4BVfleHj5smsgwsF9Rzkya/l/ArpuM+UVY4TMpcz6RLWnNCXfTvbxSq1KDSkmVXF3+abbJ1Xc023umoMVfFVcV3Jk+vKqy/1NFTIW2p5cmmPo3y9I9pnz4peWZPNgbLRyK89I9+k7Zq/yg6mDrgs6lrSfnL+1NktrWYsf6HhF+pXV7MCVmtL4dSA7Pgj3hO/eBZm/W9D4qjiz7/9W8kQ4vP/nTmfdSL2OMffaVs3NSfwDtmZWqA==</Data>
+</DataArray>
+</GIFTI>

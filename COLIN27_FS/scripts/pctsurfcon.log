@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+Thu Sep  7 23:30:34 EDT 2017
+setenv SUBJECTS_DIR /host/pandarus/local_raid/seles
+cd /host/pandarus/local_raid/seles/colin27/scripts
+/export01/local/freesurfer//bin/pctsurfcon
+$Id: pctsurfcon,v 1.11.2.1 2011/11/10 20:37:10 nicks Exp $
+Linux gypsy 4.4.19-i686-64-smp #1 SMP Wed Aug 31 17:29:59 EDT 2016 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /export01/local/freesurfer/
+Cleaning up

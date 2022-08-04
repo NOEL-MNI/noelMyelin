@@ -1,0 +1,30 @@
+###################################### Release logs ######################################
+# - All paths in this file starts from the main directory (MYATLAS).
+# - For proper use of our scripts, one needs to install freesurfer and wb_command from HCP.
+# - The released files are freely usable for any type of non-commercial analyses upon the users' responsibility.
+# - Cite: Foit N, Yung S, Lee HM, Bernasconi A, Bernasconi N, Hong SJ, "A Whole-Brain 3D Myeloarchitectonic Atlas: Mapping the Vogt-Vogt Legacy to the Cortical Surface", bioRxiv 2022.01.17.476369; doi: https://doi.org/10.1101/2022.01.17.476369
+# - Last updated: Feb 5, 2022 (contact: hong.seok.jun@gmail.com or niels.foit@mail.mcgill.ca)
+
+1.  rh.*.label files were originally created by the manual parcel delineation of SY (COLIN27_FS/label/Vogt_Areas_final/; The separate copied directory: rh.colin27.vogt_vogt.label in MYATLAS).
+2.  A corresponding annotation file was made in 2_generate_annotation_parcellation.m (line62; Accessible through the resquest to primary authors; Surface/Freesurfer_COLIN27/annot/rh.vogt-vogt.annot).
+3.  We then flipped the right hemispheric file into the left side using xhemi and mris_apply_reg in the freesurfer (line66 of 2_generate_annotation_parcellation.m). 
+4.  Detailed anatomical information and source references are specified in the "Myeloarchitectonics_table.csv". 
+5.  One can read this csv file using importfile_Myeloarchitectonics_table.m [or .py].
+6.  A GIFTI format for Nieuwenhuys' parcellation (.label.gii) and GLI (.func.gii) has been created (line144 of 2_generate_annotation_parcellation.m).
+7.  Same files for Baillarger and Intrusion type pacellation were also created. Please note that all gifti and annot files can be visualized on the cortical surface (.surf.gii) using either freeview or wb_view.
+8.  All annot and gifti files for parcellation and GLI were flipped to the left hemishpere (line237, 288 of 2_generate_annotation_parcellation.m).
+9.  These files are all grounded on COLIN27's native brain surface, which has 168868 vertices. This is not a surface registered to the template surface (e.g., fsaverage [164k=163842]).
+10. Thus, using mapping_colin27_labels_onto_individuals.sh, we resampled [r|l]h.[vogt_vogt|Baillarger_type|Intrusion_type].annot into the fsaverage space, which resulted in [r|l]h.[vogt_vogt|Baillarger_type|Intrusion_type].fsaverage[5|6].annot.
+    - export SUBJECTS_DIR=/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+    - mapping_colin27_labels_onto_individuals.sh fsaverage  rh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Baillarger_type
+    - mapping_colin27_labels_onto_individuals.sh fsaverage  lh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Baillarger_type
+    - mapping_colin27_labels_onto_individuals.sh fsaverage6 rh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Baillarger_type
+    - mapping_colin27_labels_onto_individuals.sh fsaverage6 lh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Baillarger_type
+    - mapping_colin27_labels_onto_individuals.sh fsaverage5 rh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Baillarger_type
+    - mapping_colin27_labels_onto_individuals.sh fsaverage5 lh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Baillarger_type
+	- mapping_colin27_labels_onto_individuals.sh fsaverage  rh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Intrusion_type
+	- mapping_colin27_labels_onto_individuals.sh fsaverage  lh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Intrusion_type
+	- mapping_colin27_labels_onto_individuals.sh fsaverage6 rh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Intrusion_type
+	- mapping_colin27_labels_onto_individuals.sh fsaverage6 lh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Intrusion_type
+	- mapping_colin27_labels_onto_individuals.sh fsaverage5 rh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Intrusion_type
+	- mapping_colin27_labels_onto_individuals.sh fsaverage5 lh /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/Final/ Intrusion_type

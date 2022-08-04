@@ -1,0 +1,2160 @@
+Log file for surfreg
+2021. 07. 06. (화) 17:04:15 KST
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+/local_raid1/01_software/freesurfer//bin/surfreg --s COLIN27_FS --t fsaverage_sym --lhrh --xhemi
+
+Linux zeus 5.8.0-55-generic #62~20.04.1-Ubuntu SMP Wed Jun 2 08:55:04 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+xhemireg --s COLIN27_FS
+outdir is /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi
+Logfile is /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/xhemireg.lh.log
+/local_raid1/01_software/freesurfer//bin/xhemireg
+--s COLIN27_FS
+xhemireg 7.1.0
+2021. 07. 06. (화) 17:04:15 KST
+Linux zeus 5.8.0-55-generic #62~20.04.1-Ubuntu SMP Wed Jun 2 08:55:04 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/ 
+2021. 07. 06. (화) 17:04:15 KST
+2021. 07. 06. (화) 17:04:15 KST
+vol orig --------------
+mri_vol2vol --mov mri/orig.mgz --targ mri/orig.mgz --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat --o /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --keep-precision --no-save-reg
+
+Matrix from regfile:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+movvol mri/orig.mgz
+targvol mri/orig.mgz
+outvol /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz
+regfile /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+invert 0
+tal    0
+talres 2
+regheader 0
+noresample 0
+interp  trilinear (1)
+precision  uchar (0)
+Gdiag_no  -1
+Synth      0
+SynthSeed  1626347566
+
+Final tkRAS-to-tkRAS Matrix is:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+
+Vox2Vox Matrix is:
+-1.00000   0.00000   0.00000   255.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Resampling
+Output registration matrix is identity
+
+mri_vol2vol done
+vol T1 --------------
+mri_vol2vol --mov mri/T1.mgz --targ mri/T1.mgz --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat --o /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/T1.mgz --keep-precision --no-save-reg
+
+Matrix from regfile:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+movvol mri/T1.mgz
+targvol mri/T1.mgz
+outvol /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/T1.mgz
+regfile /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+invert 0
+tal    0
+talres 2
+regheader 0
+noresample 0
+interp  trilinear (1)
+precision  uchar (0)
+Gdiag_no  -1
+Synth      0
+SynthSeed  1626514377
+
+Final tkRAS-to-tkRAS Matrix is:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+
+Vox2Vox Matrix is:
+-1.00000   0.00000   0.00000   255.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Resampling
+Output registration matrix is identity
+
+mri_vol2vol done
+vol brain --------------
+mri_vol2vol --mov mri/brain.mgz --targ mri/brain.mgz --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat --o /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/brain.mgz --keep-precision --no-save-reg
+
+Matrix from regfile:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+movvol mri/brain.mgz
+targvol mri/brain.mgz
+outvol /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/brain.mgz
+regfile /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+invert 0
+tal    0
+talres 2
+regheader 0
+noresample 0
+interp  trilinear (1)
+precision  uchar (0)
+Gdiag_no  -1
+Synth      0
+SynthSeed  1625584376
+
+Final tkRAS-to-tkRAS Matrix is:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+
+Vox2Vox Matrix is:
+-1.00000   0.00000   0.00000   255.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Resampling
+Output registration matrix is identity
+
+mri_vol2vol done
+vol brainmask --------------
+mri_vol2vol --mov mri/brainmask.mgz --targ mri/brainmask.mgz --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat --o /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/brainmask.mgz --keep-precision --no-save-reg
+
+Matrix from regfile:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+movvol mri/brainmask.mgz
+targvol mri/brainmask.mgz
+outvol /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/brainmask.mgz
+regfile /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+invert 0
+tal    0
+talres 2
+regheader 0
+noresample 0
+interp  trilinear (1)
+precision  uchar (0)
+Gdiag_no  -1
+Synth      0
+SynthSeed  1626491302
+
+Final tkRAS-to-tkRAS Matrix is:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+
+Vox2Vox Matrix is:
+-1.00000   0.00000   0.00000   255.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Resampling
+Output registration matrix is identity
+
+mri_vol2vol done
+vol norm --------------
+mri_vol2vol --mov mri/norm.mgz --targ mri/norm.mgz --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat --o /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/norm.mgz --keep-precision --no-save-reg
+
+Matrix from regfile:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+movvol mri/norm.mgz
+targvol mri/norm.mgz
+outvol /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/norm.mgz
+regfile /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+invert 0
+tal    0
+talres 2
+regheader 0
+noresample 0
+interp  trilinear (1)
+precision  uchar (0)
+Gdiag_no  -1
+Synth      0
+SynthSeed  1626322486
+
+Final tkRAS-to-tkRAS Matrix is:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+
+Vox2Vox Matrix is:
+-1.00000   0.00000   0.00000   255.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Resampling
+Output registration matrix is identity
+
+mri_vol2vol done
+vol aseg --------------
+mri_vol2vol --mov mri/aseg.mgz --targ mri/aseg.mgz --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat --o /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aseg.mgz --keep-precision --no-save-reg
+
+Matrix from regfile:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+movvol mri/aseg.mgz
+targvol mri/aseg.mgz
+outvol /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aseg.mgz
+regfile /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+invert 0
+tal    0
+talres 2
+regheader 0
+noresample 0
+interp  trilinear (1)
+precision  uchar (0)
+Gdiag_no  -1
+Synth      0
+SynthSeed  1626228457
+
+Final tkRAS-to-tkRAS Matrix is:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+
+Vox2Vox Matrix is:
+-1.00000   0.00000   0.00000   255.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Resampling
+Output registration matrix is identity
+
+mri_vol2vol done
+mri_convert /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aseg.mgz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aseg.mgz --left-right-swap-label
+mri_convert /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aseg.mgz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aseg.mgz --left-right-swap-label 
+reading from /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aseg.mgz...
+Performing left-right swap of labels
+TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aseg.mgz...
+vol aparc+aseg --------------
+mri_vol2vol --mov mri/aparc+aseg.mgz --targ mri/aparc+aseg.mgz --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat --o /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aparc+aseg.mgz --keep-precision --no-save-reg
+
+Matrix from regfile:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+movvol mri/aparc+aseg.mgz
+targvol mri/aparc+aseg.mgz
+outvol /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aparc+aseg.mgz
+regfile /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+invert 0
+tal    0
+talres 2
+regheader 0
+noresample 0
+interp  trilinear (1)
+precision  int (1)
+Gdiag_no  -1
+Synth      0
+SynthSeed  1625802221
+
+Final tkRAS-to-tkRAS Matrix is:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+
+Vox2Vox Matrix is:
+-1.00000   0.00000   0.00000   255.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Resampling
+Output registration matrix is identity
+
+mri_vol2vol done
+mri_convert /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aparc+aseg.mgz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aparc+aseg.mgz --left-right-swap-label
+mri_convert /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aparc+aseg.mgz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aparc+aseg.mgz --left-right-swap-label 
+reading from /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aparc+aseg.mgz...
+Performing left-right swap of labels
+TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/aparc+aseg.mgz...
+vol nu --------------
+mri_vol2vol --mov mri/nu.mgz --targ mri/nu.mgz --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat --o /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/nu.mgz --keep-precision --no-save-reg
+
+Matrix from regfile:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+movvol mri/nu.mgz
+targvol mri/nu.mgz
+outvol /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/nu.mgz
+regfile /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+invert 0
+tal    0
+talres 2
+regheader 0
+noresample 0
+interp  trilinear (1)
+precision  uchar (0)
+Gdiag_no  -1
+Synth      0
+SynthSeed  1625568251
+
+Final tkRAS-to-tkRAS Matrix is:
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+
+Vox2Vox Matrix is:
+-1.00000   0.00000   0.00000   255.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Resampling
+Output registration matrix is identity
+
+mri_vol2vol done
+2021. 07. 06. (화) 17:04:46 KST
+recon-all -sb COLIN27_FS/xhemi -talairach
+Subject Stamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b
+Current Stamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b
+INFO: SUBJECTS_DIR is /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data
+Actual FREESURFER_HOME /local_raid1/01_software/freesurfer
+Linux zeus 5.8.0-55-generic #62~20.04.1-Ubuntu SMP Wed Jun 2 08:55:04 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+'/local_raid1/01_software/freesurfer/bin/recon-all' -> '/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/scripts/recon-all.local-copy'
+#--------------------------------------------
+#@# Talairach 2021. 07. 06. (화) 17:04:47 KST
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri
+
+ mri_nu_correct.mni --no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50 
+
+/usr/bin/bc
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri
+/local_raid1/01_software/freesurfer//bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50
+nIters 1
+mri_nu_correct.mni 7.1.0
+Linux zeus 5.8.0-55-generic #62~20.04.1-Ubuntu SMP Wed Jun 2 08:55:04 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+2021. 07. 06. (화) 17:04:47 KST
+Found /dev/shm , will use for temp dir
+tmpdir is /dev/shm/tmp.mri_nu_correct.mni.1373626
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o /dev/shm/tmp.mri_nu_correct.mni.1373626/nu0.mgz
+Using shrink factor: 4
+mri_convert /dev/shm/tmp.mri_nu_correct.mni.1373626/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+mri_convert /dev/shm/tmp.mri_nu_correct.mni.1373626/nu0.mgz orig_nu.mgz --like orig.mgz --conform 
+reading from /dev/shm/tmp.mri_nu_correct.mni.1373626/nu0.mgz...
+TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+INFO: transform src into the like-volume: orig.mgz
+writing to orig_nu.mgz...
+ 
+ 
+2021. 07. 06. (화) 17:07:50 KST
+mri_nu_correct.mni done
+@#@FSTIME  2021:07:06:17:04:47 mri_nu_correct.mni N 12 e 182.93 S 0.41 U 182.51 P 100% M 490904 F 0 R 167590 W 0 c 245 w 95 I 0 O 8672 L 23.30 19.66 19.85
+@#@FSLOADPOST 2021:07:06:17:07:50 mri_nu_correct.mni N 12 23.79 19.40 19.56
+
+ talairach_avi --i orig_nu.mgz --xfm transforms/talairach.auto.xfm 
+
+talairach_avi log file is transforms/talairach_avi.log...
+Started at 2021. 07. 06. (화) 17:07:50 KST
+Ended   at 2021. 07. 06. (화) 17:08:10 KST
+talairach_avi done
+@#@FSTIME  2021:07:06:17:07:50 talairach_avi N 4 e 20.55 S 1.33 U 13.22 P 70% M 255784 F 0 R 396884 W 0 c 56 w 144 I 0 O 295264 L 23.79 19.40 19.56
+@#@FSLOADPOST 2021:07:06:17:08:10 talairach_avi N 4 24.47 19.93 19.74
+
+ cp transforms/talairach.auto.xfm transforms/talairach.xfm 
+
+lta_convert --src orig.mgz --trg /local_raid1/01_software/freesurfer//average/mni305.cor.mgz --inxfm transforms/talairach.xfm --outlta transforms/talairach.xfm.lta --subject fsaverage --ltavox2vox
+7.1.0
+
+--src: orig.mgz src image (geometry).
+--trg: /local_raid1/01_software/freesurfer//average/mni305.cor.mgz trg image (geometry).
+--inmni: transforms/talairach.xfm input MNI/XFM transform.
+--outlta: transforms/talairach.xfm.lta output LTA.
+--s: fsaverage subject name
+--ltavox2vox: output LTA as VOX_TO_VOX transform.
+ LTA read, type : 1
+ 0.96934  -0.00383  -0.00977  -1.52206;
+ 0.01429   0.97494   0.03136  -2.36725;
+ 0.00031   0.04868   0.94962   0.04710;
+ 0.00000   0.00000   0.00000   1.00000;
+setting subject to fsaverage
+Writing  LTA to file transforms/talairach.xfm.lta...
+lta_convert successful.
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/transforms /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri 
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri 
+
+Started at 2021. 07. 06. (화) 17:04:46 KST 
+Ended   at 2021. 07. 06. (화) 17:08:12 KST
+#@#%# recon-all-run-time-hours 0.057
+recon-all -s COLIN27_FS/xhemi finished without error at 2021. 07. 06. (화) 17:08:12 KST
+done
+2021. 07. 06. (화) 17:08:12 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz orig --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.orig --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz orig --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.orig --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.orig
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.orig
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:15 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz white --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.white --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz white --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.white --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.white
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.white
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:17 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz pial --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.pial --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz pial --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.pial --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.pial
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.pial
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:20 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz smoothwm --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.smoothwm --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz smoothwm --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.smoothwm --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.smoothwm
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.smoothwm
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:22 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz sphere --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.sphere --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz sphere --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.sphere --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.sphere
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.sphere
+Applying linear registration transform
+-1.00000   0.00000   0.00000   0.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:25 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz inflated --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.inflated --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz inflated --hemi lh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.inflated --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/rh.inflated
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/lh.inflated
+Applying linear registration transform
+-1.00000   0.00000   0.00000   0.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+cp label/lh.aparc.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/label/rh.aparc.annot
+cp label/lh.BA.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/label/rh.BA.annot
+cp label/lh.aparc.a2009s.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/label/rh.aparc.a2009s.annot
+done hemi lh
+Logfile is /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/xhemireg.rh.log
+/local_raid1/01_software/freesurfer//bin/xhemireg
+--s COLIN27_FS
+xhemireg 7.1.0
+2021. 07. 06. (화) 17:08:28 KST
+Linux zeus 5.8.0-55-generic #62~20.04.1-Ubuntu SMP Wed Jun 2 08:55:04 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/ 
+2021. 07. 06. (화) 17:08:28 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz orig --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.orig --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz orig --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.orig --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.orig
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.orig
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:31 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz white --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.white --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz white --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.white --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.white
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.white
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:33 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz pial --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.pial --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz pial --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.pial --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.pial
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.pial
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:35 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz smoothwm --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.smoothwm --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz smoothwm --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.smoothwm --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.smoothwm
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.smoothwm
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:38 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz sphere --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.sphere --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz sphere --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.sphere --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.sphere
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere
+Applying linear registration transform
+-1.00000   0.00000   0.00000   0.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:40 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz inflated --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.inflated --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz inflated --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.inflated --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.inflated
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.inflated
+Applying linear registration transform
+-1.00000   0.00000   0.00000   0.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+cp label/rh.aparc.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/label/lh.aparc.annot
+cp label/rh.BA.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/label/lh.BA.annot
+cp label/rh.aparc.a2009s.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/label/lh.aparc.a2009s.annot
+done hemi rh
+
+2021. 07. 06. (화) 17:08:43 KST
+xhemireg done
+#@# lh 2021. 07. 06. (화) 17:08:43 KST
+#CMD# mris_register -curv -annot aparc.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/lh.sphere /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//fsaverage_sym/lh.reg.template.tif /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/lh.fsaverage_sym.sphere.reg
+using smoothwm curvature for final alignment
+zeroing medial wall in aparc.annot
+
+cwd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+cmdline mris_register -curv -annot aparc.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/lh.sphere /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//fsaverage_sym/lh.reg.template.tif /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/lh.fsaverage_sym.sphere.reg 
+
+0 inflated.H
+1 sulc
+2 smoothwm (computed)
+7.1.0
+  7.1.0
+reading surface from /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/lh.sphere...
+reading template parameterization from /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//fsaverage_sym/lh.reg.template.tif...
+reading colortable from annotation file...
+colortable with 36 entries read (originally /autofs/space/terrier_001/users/nicks/freesurfer/average/colortable_desikan_killiany.txt)
+ripping medial wall...
+MRISregister() -------
+max_passes = 4 
+min_degrees = 0.500000 
+max_degrees = 64.000000 
+nangles = 8 
+tol=5.0e-01, sigma=0.0, host= zeus, nav=1024, nbrs=1, l_extern=10000.000, l_parea=0.200, l_nlarea=1.000, l_corr=1.000, l_dist=5.000
+using quadratic fit line minimization
+complete_dist_mat 0
+rms 0
+smooth_averages 0
+remove_neg 0
+ico_order 0
+which_surface 0
+target_radius 0.000000
+nfields 0
+scale 0.000000
+desired_rms_height -1.000000
+momentum 0.950000
+nbhd_size -10
+max_nbrs 10
+niterations 25
+nsurfaces 0
+SURFACES 3
+flags 16 (10)
+use curv 16
+no sulc 0
+no rigid align 0
+mris->nsize 1
+mris->hemisphere 0
+randomSeed 0
+
+tol=5.0e-01, sigma=0.0, host= zeus, nav=1024, nbrs=1, l_extern=10000.000, l_parea=0.200, l_nlarea=1.000, l_corr=1.000, l_dist=5.000
+using quadratic fit line minimization
+--------------------
+1 Reading lh.sulc
+tol=1.0e+00, sigma=0.5, host= zeus, nav=1024, nbrs=1, l_extern=10000.000, l_parea=0.200, l_nlarea=1.000, l_corr=0.050, l_spring=0.500, l_dist=5.000
+using quadratic fit line minimization
+curvature mean = -0.001, std = 0.610
+curvature mean = 0.048, std = 0.807
+curvature mean = 0.023, std = 0.839
+Starting MRISrigidBodyAlignGlobal()
+Starting new MRISrigidBodyAlignGlobal_findMinSSE()
+  new MRISrigidBodyAlignGlobal_findMinSSE min @ (1.00, -2.00, 15.00) sse = 277102.7, elapsed since starting=0.4961 min
+MRISrigidBodyAlignGlobal() done   0.50 min
+curvature mean = 0.005, std = 0.813
+curvature mean = 0.010, std = 0.931
+curvature mean = -0.003, std = 0.821
+curvature mean = 0.004, std = 0.970
+curvature mean = -0.006, std = 0.821
+curvature mean = 0.001, std = 0.987
+2 Reading smoothwm
+curvature mean = -0.025, std = 0.226
+curvature mean = 0.034, std = 0.120
+curvature mean = 0.050, std = 0.416
+curvature mean = 0.033, std = 0.150
+curvature mean = 0.021, std = 0.633
+curvature mean = 0.032, std = 0.164
+curvature mean = 0.009, std = 0.786
+curvature mean = 0.032, std = 0.170
+curvature mean = 0.003, std = 0.882
+MRISregister() return, current seed 0
+-01: dt=0.0000, 48 negative triangles
+144: dt=0.9900, 48 negative triangles
+145: dt=0.9900, 38 negative triangles
+146: dt=0.9900, 37 negative triangles
+147: dt=0.9900, 30 negative triangles
+148: dt=0.9900, 25 negative triangles
+149: dt=0.9900, 21 negative triangles
+150: dt=0.9900, 14 negative triangles
+151: dt=0.9900, 11 negative triangles
+152: dt=0.9900, 11 negative triangles
+153: dt=0.9900, 11 negative triangles
+154: dt=0.9900, 12 negative triangles
+155: dt=0.9900, 4 negative triangles
+156: dt=0.9900, 3 negative triangles
+157: dt=0.9900, 5 negative triangles
+158: dt=0.9900, 2 negative triangles
+159: dt=0.9900, 3 negative triangles
+160: dt=0.9900, 1 negative triangles
+161: dt=0.9900, 1 negative triangles
+writing registered surface to /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/lh.fsaverage_sym.sphere.reg...
+registration took 0.21 hours
+#VMPC# mris_register VmPeak  2430560
+FSRUNTIME@ mris_register  0.2061 hours 1 threads
+#@# rh 2021. 07. 06. (화) 17:21:05 KST
+#CMD# mris_register -curv -annot aparc.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/rh.sphere /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//fsaverage_sym/rh.reg.template.tif /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/rh.fsaverage_sym.sphere.reg
+using smoothwm curvature for final alignment
+zeroing medial wall in aparc.annot
+
+cwd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+cmdline mris_register -curv -annot aparc.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/rh.sphere /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//fsaverage_sym/rh.reg.template.tif /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/rh.fsaverage_sym.sphere.reg 
+
+0 inflated.H
+1 sulc
+2 smoothwm (computed)
+7.1.0
+  7.1.0
+reading surface from /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/rh.sphere...
+reading template parameterization from /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//fsaverage_sym/rh.reg.template.tif...
+reading colortable from annotation file...
+colortable with 36 entries read (originally /autofs/space/terrier_001/users/nicks/freesurfer/average/colortable_desikan_killiany.txt)
+ripping medial wall...
+MRISregister() -------
+max_passes = 4 
+min_degrees = 0.500000 
+max_degrees = 64.000000 
+nangles = 8 
+tol=5.0e-01, sigma=0.0, host= zeus, nav=1024, nbrs=1, l_extern=10000.000, l_parea=0.200, l_nlarea=1.000, l_corr=1.000, l_dist=5.000
+using quadratic fit line minimization
+complete_dist_mat 0
+rms 0
+smooth_averages 0
+remove_neg 0
+ico_order 0
+which_surface 0
+target_radius 0.000000
+nfields 0
+scale 0.000000
+desired_rms_height -1.000000
+momentum 0.950000
+nbhd_size -10
+max_nbrs 10
+niterations 25
+nsurfaces 0
+SURFACES 3
+flags 16 (10)
+use curv 16
+no sulc 0
+no rigid align 0
+mris->nsize 1
+mris->hemisphere 1
+randomSeed 0
+
+tol=5.0e-01, sigma=0.0, host= zeus, nav=1024, nbrs=1, l_extern=10000.000, l_parea=0.200, l_nlarea=1.000, l_corr=1.000, l_dist=5.000
+using quadratic fit line minimization
+--------------------
+1 Reading rh.sulc
+tol=1.0e+00, sigma=0.5, host= zeus, nav=1024, nbrs=1, l_extern=10000.000, l_parea=0.200, l_nlarea=1.000, l_corr=0.050, l_spring=0.500, l_dist=5.000
+using quadratic fit line minimization
+curvature mean = -0.000, std = 0.605
+curvature mean = 0.058, std = 0.800
+curvature mean = 0.025, std = 0.834
+Starting MRISrigidBodyAlignGlobal()
+Starting new MRISrigidBodyAlignGlobal_findMinSSE()
+  new MRISrigidBodyAlignGlobal_findMinSSE min @ (9.00, -7.50, 20.00) sse = 287075.2, elapsed since starting=0.5002 min
+MRISrigidBodyAlignGlobal() done   0.50 min
+curvature mean = 0.006, std = 0.801
+curvature mean = 0.013, std = 0.925
+curvature mean = -0.003, std = 0.807
+curvature mean = 0.005, std = 0.965
+curvature mean = -0.007, std = 0.808
+curvature mean = 0.001, std = 0.983
+2 Reading smoothwm
+curvature mean = -0.026, std = 0.225
+curvature mean = 0.034, std = 0.121
+curvature mean = 0.059, std = 0.418
+curvature mean = 0.033, std = 0.148
+curvature mean = 0.025, std = 0.637
+curvature mean = 0.032, std = 0.162
+curvature mean = 0.012, std = 0.793
+curvature mean = 0.032, std = 0.168
+curvature mean = 0.004, std = 0.891
+MRISregister() return, current seed 0
+-01: dt=0.0000, 13 negative triangles
+143: dt=0.9900, 13 negative triangles
+144: dt=0.9900, 11 negative triangles
+145: dt=0.9900, 10 negative triangles
+146: dt=0.9900, 10 negative triangles
+147: dt=0.9900, 9 negative triangles
+148: dt=0.9900, 7 negative triangles
+149: dt=0.9900, 14 negative triangles
+150: dt=0.9900, 14 negative triangles
+151: dt=0.9900, 16 negative triangles
+152: dt=0.9900, 21 negative triangles
+153: dt=0.9900, 25 negative triangles
+154: dt=0.9900, 20 negative triangles
+155: dt=0.9900, 29 negative triangles
+156: dt=0.9900, 26 negative triangles
+157: dt=0.9900, 28 negative triangles
+158: dt=0.9405, 29 negative triangles
+159: dt=0.9405, 34 negative triangles
+160: dt=0.9405, 32 negative triangles
+161: dt=0.9405, 30 negative triangles
+162: dt=0.9405, 34 negative triangles
+163: dt=0.9405, 31 negative triangles
+164: dt=0.9405, 32 negative triangles
+165: dt=0.9405, 33 negative triangles
+166: dt=0.9405, 34 negative triangles
+167: dt=0.9405, 35 negative triangles
+168: dt=0.8935, 36 negative triangles
+169: dt=0.8935, 34 negative triangles
+170: dt=0.8935, 37 negative triangles
+171: dt=0.8935, 36 negative triangles
+172: dt=0.8935, 36 negative triangles
+173: dt=0.8935, 37 negative triangles
+174: dt=0.8935, 42 negative triangles
+175: dt=0.8935, 42 negative triangles
+176: dt=0.8935, 34 negative triangles
+177: dt=0.8935, 33 negative triangles
+178: dt=0.8488, 37 negative triangles
+179: dt=0.8488, 35 negative triangles
+180: dt=0.8488, 33 negative triangles
+181: dt=0.8488, 34 negative triangles
+182: dt=0.8488, 38 negative triangles
+183: dt=0.8488, 38 negative triangles
+184: dt=0.8488, 35 negative triangles
+185: dt=0.8488, 33 negative triangles
+186: dt=0.8488, 34 negative triangles
+187: dt=0.8488, 39 negative triangles
+188: dt=0.8064, 34 negative triangles
+189: dt=0.8064, 32 negative triangles
+190: dt=0.8064, 35 negative triangles
+191: dt=0.8064, 38 negative triangles
+192: dt=0.8064, 37 negative triangles
+193: dt=0.8064, 35 negative triangles
+194: dt=0.8064, 34 negative triangles
+195: dt=0.8064, 33 negative triangles
+196: dt=0.8064, 32 negative triangles
+197: dt=0.8064, 35 negative triangles
+198: dt=0.7660, 38 negative triangles
+expanding nbhd size to 1
+199: dt=0.9900, 33 negative triangles
+200: dt=0.9900, 38 negative triangles
+201: dt=0.9900, 40 negative triangles
+202: dt=0.9900, 41 negative triangles
+203: dt=0.9900, 41 negative triangles
+204: dt=0.9900, 40 negative triangles
+205: dt=0.9900, 41 negative triangles
+206: dt=0.9900, 43 negative triangles
+207: dt=0.9900, 42 negative triangles
+208: dt=0.9405, 42 negative triangles
+209: dt=0.9405, 43 negative triangles
+210: dt=0.9405, 42 negative triangles
+211: dt=0.9405, 44 negative triangles
+212: dt=0.9405, 44 negative triangles
+213: dt=0.9405, 43 negative triangles
+214: dt=0.9405, 45 negative triangles
+215: dt=0.9405, 45 negative triangles
+216: dt=0.9405, 43 negative triangles
+217: dt=0.9405, 43 negative triangles
+218: dt=0.8935, 44 negative triangles
+219: dt=0.8935, 43 negative triangles
+220: dt=0.8935, 44 negative triangles
+221: dt=0.8935, 44 negative triangles
+222: dt=0.8935, 44 negative triangles
+223: dt=0.8935, 43 negative triangles
+224: dt=0.8935, 44 negative triangles
+225: dt=0.8935, 43 negative triangles
+226: dt=0.8935, 44 negative triangles
+227: dt=0.8935, 45 negative triangles
+228: dt=0.8488, 43 negative triangles
+229: dt=0.8488, 44 negative triangles
+230: dt=0.8488, 43 negative triangles
+231: dt=0.8488, 46 negative triangles
+232: dt=0.8488, 45 negative triangles
+233: dt=0.8488, 43 negative triangles
+234: dt=0.8488, 45 negative triangles
+235: dt=0.8488, 44 negative triangles
+236: dt=0.8488, 43 negative triangles
+237: dt=0.8488, 45 negative triangles
+238: dt=0.8064, 44 negative triangles
+239: dt=0.8064, 44 negative triangles
+240: dt=0.8064, 43 negative triangles
+241: dt=0.8064, 45 negative triangles
+242: dt=0.8064, 44 negative triangles
+243: dt=0.8064, 46 negative triangles
+244: dt=0.8064, 45 negative triangles
+245: dt=0.8064, 45 negative triangles
+246: dt=0.8064, 45 negative triangles
+247: dt=0.8064, 45 negative triangles
+248: dt=0.7660, 44 negative triangles
+249: dt=0.7660, 45 negative triangles
+250: dt=0.7660, 43 negative triangles
+251: dt=0.7660, 44 negative triangles
+252: dt=0.7660, 44 negative triangles
+253: dt=0.7660, 45 negative triangles
+254: dt=0.7660, 45 negative triangles
+255: dt=0.7660, 45 negative triangles
+256: dt=0.7660, 44 negative triangles
+257: dt=0.7660, 44 negative triangles
+258: dt=0.7277, 44 negative triangles
+259: dt=0.7277, 45 negative triangles
+260: dt=0.7277, 45 negative triangles
+261: dt=0.7277, 45 negative triangles
+262: dt=0.7277, 47 negative triangles
+263: dt=0.7277, 46 negative triangles
+264: dt=0.7277, 45 negative triangles
+265: dt=0.7277, 46 negative triangles
+266: dt=0.7277, 46 negative triangles
+267: dt=0.7277, 45 negative triangles
+268: dt=0.6914, 46 negative triangles
+269: dt=0.6914, 45 negative triangles
+270: dt=0.6914, 46 negative triangles
+271: dt=0.6914, 46 negative triangles
+272: dt=0.6914, 45 negative triangles
+273: dt=0.6914, 45 negative triangles
+274: dt=0.6914, 46 negative triangles
+275: dt=0.6914, 45 negative triangles
+276: dt=0.6914, 47 negative triangles
+277: dt=0.6914, 46 negative triangles
+278: dt=0.6568, 48 negative triangles
+279: dt=0.6568, 46 negative triangles
+280: dt=0.6568, 46 negative triangles
+281: dt=0.6568, 46 negative triangles
+282: dt=0.6568, 46 negative triangles
+283: dt=0.6568, 47 negative triangles
+284: dt=0.6568, 47 negative triangles
+285: dt=0.6568, 45 negative triangles
+286: dt=0.6568, 45 negative triangles
+287: dt=0.6568, 46 negative triangles
+288: dt=0.6239, 46 negative triangles
+289: dt=0.6239, 47 negative triangles
+290: dt=0.6239, 46 negative triangles
+291: dt=0.6239, 46 negative triangles
+292: dt=0.6239, 47 negative triangles
+293: dt=0.6239, 46 negative triangles
+294: dt=0.6239, 47 negative triangles
+295: dt=0.6239, 47 negative triangles
+296: dt=0.6239, 46 negative triangles
+297: dt=0.6239, 46 negative triangles
+298: dt=0.5927, 47 negative triangles
+299: dt=0.5927, 48 negative triangles
+300: dt=0.5927, 49 negative triangles
+301: dt=0.5927, 47 negative triangles
+302: dt=0.5927, 47 negative triangles
+303: dt=0.5927, 48 negative triangles
+304: dt=0.5927, 47 negative triangles
+305: dt=0.5927, 48 negative triangles
+306: dt=0.5927, 47 negative triangles
+307: dt=0.5927, 47 negative triangles
+308: dt=0.5631, 48 negative triangles
+309: dt=0.5631, 47 negative triangles
+310: dt=0.5631, 49 negative triangles
+311: dt=0.5631, 48 negative triangles
+312: dt=0.5631, 47 negative triangles
+313: dt=0.5631, 47 negative triangles
+314: dt=0.5631, 47 negative triangles
+315: dt=0.5631, 47 negative triangles
+316: dt=0.5631, 48 negative triangles
+317: dt=0.5631, 48 negative triangles
+318: dt=0.5350, 47 negative triangles
+319: dt=0.5350, 48 negative triangles
+320: dt=0.5350, 47 negative triangles
+321: dt=0.5350, 48 negative triangles
+322: dt=0.5350, 48 negative triangles
+323: dt=0.5350, 47 negative triangles
+324: dt=0.5350, 48 negative triangles
+325: dt=0.5350, 47 negative triangles
+326: dt=0.5350, 49 negative triangles
+327: dt=0.5350, 48 negative triangles
+328: dt=0.5082, 50 negative triangles
+329: dt=0.5082, 48 negative triangles
+330: dt=0.5082, 48 negative triangles
+331: dt=0.5082, 48 negative triangles
+332: dt=0.5082, 50 negative triangles
+333: dt=0.5082, 50 negative triangles
+334: dt=0.5082, 50 negative triangles
+335: dt=0.5082, 50 negative triangles
+336: dt=0.5082, 51 negative triangles
+337: dt=0.5082, 51 negative triangles
+338: dt=0.4828, 52 negative triangles
+339: dt=0.4828, 51 negative triangles
+340: dt=0.4828, 52 negative triangles
+341: dt=0.4828, 52 negative triangles
+342: dt=0.4828, 52 negative triangles
+343: dt=0.4828, 53 negative triangles
+344: dt=0.4828, 51 negative triangles
+345: dt=0.4828, 51 negative triangles
+346: dt=0.4828, 51 negative triangles
+347: dt=0.4828, 51 negative triangles
+348: dt=0.4587, 53 negative triangles
+349: dt=0.4587, 52 negative triangles
+350: dt=0.4587, 51 negative triangles
+351: dt=0.4587, 51 negative triangles
+352: dt=0.4587, 52 negative triangles
+353: dt=0.4587, 52 negative triangles
+354: dt=0.4587, 51 negative triangles
+355: dt=0.4587, 51 negative triangles
+356: dt=0.4587, 55 negative triangles
+357: dt=0.4587, 52 negative triangles
+358: dt=0.4357, 52 negative triangles
+359: dt=0.4357, 53 negative triangles
+360: dt=0.4357, 53 negative triangles
+361: dt=0.4357, 51 negative triangles
+362: dt=0.4357, 51 negative triangles
+363: dt=0.4357, 51 negative triangles
+364: dt=0.4357, 52 negative triangles
+365: dt=0.4357, 51 negative triangles
+366: dt=0.4357, 51 negative triangles
+367: dt=0.4357, 52 negative triangles
+368: dt=0.4139, 51 negative triangles
+369: dt=0.4139, 52 negative triangles
+370: dt=0.4139, 51 negative triangles
+371: dt=0.4139, 52 negative triangles
+372: dt=0.4139, 52 negative triangles
+373: dt=0.4139, 52 negative triangles
+374: dt=0.4139, 51 negative triangles
+375: dt=0.4139, 53 negative triangles
+376: dt=0.4139, 52 negative triangles
+377: dt=0.4139, 52 negative triangles
+378: dt=0.3932, 52 negative triangles
+379: dt=0.3932, 53 negative triangles
+380: dt=0.3932, 52 negative triangles
+381: dt=0.3932, 52 negative triangles
+382: dt=0.3932, 53 negative triangles
+383: dt=0.3932, 53 negative triangles
+384: dt=0.3932, 53 negative triangles
+385: dt=0.3932, 54 negative triangles
+386: dt=0.3932, 52 negative triangles
+387: dt=0.3932, 52 negative triangles
+388: dt=0.3736, 52 negative triangles
+389: dt=0.3736, 53 negative triangles
+390: dt=0.3736, 52 negative triangles
+391: dt=0.3736, 52 negative triangles
+392: dt=0.3736, 53 negative triangles
+393: dt=0.3736, 52 negative triangles
+394: dt=0.3736, 52 negative triangles
+395: dt=0.3736, 52 negative triangles
+396: dt=0.3736, 53 negative triangles
+397: dt=0.3736, 53 negative triangles
+398: dt=0.3549, 53 negative triangles
+399: dt=0.3549, 52 negative triangles
+400: dt=0.3549, 54 negative triangles
+401: dt=0.3549, 53 negative triangles
+402: dt=0.3549, 52 negative triangles
+403: dt=0.3549, 52 negative triangles
+404: dt=0.3549, 53 negative triangles
+405: dt=0.3549, 52 negative triangles
+406: dt=0.3549, 52 negative triangles
+407: dt=0.3549, 52 negative triangles
+408: dt=0.3372, 53 negative triangles
+409: dt=0.3372, 53 negative triangles
+410: dt=0.3372, 52 negative triangles
+411: dt=0.3372, 53 negative triangles
+412: dt=0.3372, 53 negative triangles
+413: dt=0.3372, 53 negative triangles
+414: dt=0.3372, 53 negative triangles
+415: dt=0.3372, 52 negative triangles
+416: dt=0.3372, 53 negative triangles
+417: dt=0.3372, 54 negative triangles
+418: dt=0.3203, 54 negative triangles
+419: dt=0.3203, 53 negative triangles
+420: dt=0.3203, 53 negative triangles
+421: dt=0.3203, 54 negative triangles
+422: dt=0.3203, 54 negative triangles
+423: dt=0.3203, 54 negative triangles
+424: dt=0.3203, 53 negative triangles
+425: dt=0.3203, 53 negative triangles
+426: dt=0.3203, 53 negative triangles
+427: dt=0.3203, 53 negative triangles
+428: dt=0.3043, 55 negative triangles
+429: dt=0.3043, 53 negative triangles
+430: dt=0.3043, 53 negative triangles
+431: dt=0.3043, 54 negative triangles
+432: dt=0.3043, 54 negative triangles
+433: dt=0.3043, 55 negative triangles
+434: dt=0.3043, 53 negative triangles
+435: dt=0.3043, 54 negative triangles
+436: dt=0.3043, 53 negative triangles
+437: dt=0.3043, 53 negative triangles
+438: dt=0.2891, 54 negative triangles
+439: dt=0.2891, 53 negative triangles
+440: dt=0.2891, 53 negative triangles
+441: dt=0.2891, 54 negative triangles
+442: dt=0.2891, 54 negative triangles
+443: dt=0.2891, 53 negative triangles
+444: dt=0.2891, 53 negative triangles
+445: dt=0.2891, 55 negative triangles
+446: dt=0.2891, 54 negative triangles
+447: dt=0.2891, 53 negative triangles
+448: dt=0.2746, 54 negative triangles
+449: dt=0.2746, 54 negative triangles
+450: dt=0.2746, 54 negative triangles
+451: dt=0.2746, 53 negative triangles
+452: dt=0.2746, 53 negative triangles
+453: dt=0.2746, 53 negative triangles
+454: dt=0.2746, 53 negative triangles
+455: dt=0.2746, 54 negative triangles
+456: dt=0.2746, 53 negative triangles
+457: dt=0.2746, 54 negative triangles
+458: dt=0.2609, 55 negative triangles
+459: dt=0.2609, 54 negative triangles
+460: dt=0.2609, 53 negative triangles
+461: dt=0.2609, 53 negative triangles
+462: dt=0.2609, 54 negative triangles
+463: dt=0.2609, 53 negative triangles
+464: dt=0.2609, 53 negative triangles
+465: dt=0.2609, 55 negative triangles
+466: dt=0.2609, 54 negative triangles
+467: dt=0.2609, 53 negative triangles
+468: dt=0.2478, 53 negative triangles
+469: dt=0.2478, 54 negative triangles
+470: dt=0.2478, 54 negative triangles
+471: dt=0.2478, 53 negative triangles
+472: dt=0.2478, 53 negative triangles
+473: dt=0.2478, 55 negative triangles
+474: dt=0.2478, 54 negative triangles
+475: dt=0.2478, 55 negative triangles
+476: dt=0.2478, 53 negative triangles
+477: dt=0.2478, 53 negative triangles
+478: dt=0.2354, 53 negative triangles
+479: dt=0.2354, 54 negative triangles
+480: dt=0.2354, 53 negative triangles
+481: dt=0.2354, 53 negative triangles
+482: dt=0.2354, 53 negative triangles
+483: dt=0.2354, 54 negative triangles
+484: dt=0.2354, 54 negative triangles
+485: dt=0.2354, 53 negative triangles
+486: dt=0.2354, 53 negative triangles
+487: dt=0.2354, 55 negative triangles
+488: dt=0.2237, 53 negative triangles
+489: dt=0.2237, 54 negative triangles
+490: dt=0.2237, 53 negative triangles
+491: dt=0.2237, 54 negative triangles
+492: dt=0.2237, 53 negative triangles
+493: dt=0.2237, 54 negative triangles
+494: dt=0.2237, 54 negative triangles
+495: dt=0.2237, 53 negative triangles
+496: dt=0.2237, 53 negative triangles
+497: dt=0.2237, 54 negative triangles
+498: dt=0.2125, 54 negative triangles
+499: dt=0.2125, 53 negative triangles
+500: dt=0.2125, 53 negative triangles
+501: dt=0.2125, 54 negative triangles
+502: dt=0.2125, 54 negative triangles
+503: dt=0.2125, 53 negative triangles
+504: dt=0.2125, 55 negative triangles
+505: dt=0.2125, 53 negative triangles
+506: dt=0.2125, 54 negative triangles
+507: dt=0.2125, 53 negative triangles
+508: dt=0.2019, 53 negative triangles
+509: dt=0.2019, 53 negative triangles
+510: dt=0.2019, 54 negative triangles
+511: dt=0.2019, 54 negative triangles
+512: dt=0.2019, 53 negative triangles
+513: dt=0.2019, 53 negative triangles
+514: dt=0.2019, 54 negative triangles
+515: dt=0.2019, 56 negative triangles
+516: dt=0.2019, 53 negative triangles
+517: dt=0.2019, 53 negative triangles
+518: dt=0.1918, 53 negative triangles
+519: dt=0.1918, 53 negative triangles
+520: dt=0.1918, 55 negative triangles
+521: dt=0.1918, 53 negative triangles
+522: dt=0.1918, 53 negative triangles
+523: dt=0.1918, 54 negative triangles
+524: dt=0.1918, 53 negative triangles
+525: dt=0.1918, 53 negative triangles
+526: dt=0.1918, 53 negative triangles
+527: dt=0.1918, 55 negative triangles
+528: dt=0.1822, 53 negative triangles
+529: dt=0.1822, 54 negative triangles
+530: dt=0.1822, 55 negative triangles
+531: dt=0.1822, 54 negative triangles
+532: dt=0.1822, 53 negative triangles
+533: dt=0.1822, 53 negative triangles
+534: dt=0.1822, 53 negative triangles
+535: dt=0.1822, 53 negative triangles
+536: dt=0.1822, 54 negative triangles
+537: dt=0.1822, 54 negative triangles
+538: dt=0.1731, 54 negative triangles
+539: dt=0.1731, 56 negative triangles
+540: dt=0.1731, 55 negative triangles
+541: dt=0.1731, 54 negative triangles
+542: dt=0.1731, 55 negative triangles
+543: dt=0.1731, 55 negative triangles
+544: dt=0.1731, 54 negative triangles
+545: dt=0.1731, 54 negative triangles
+546: dt=0.1731, 55 negative triangles
+547: dt=0.1731, 54 negative triangles
+548: dt=0.1644, 54 negative triangles
+549: dt=0.1644, 55 negative triangles
+550: dt=0.1644, 55 negative triangles
+551: dt=0.1644, 54 negative triangles
+552: dt=0.1644, 55 negative triangles
+553: dt=0.1644, 56 negative triangles
+554: dt=0.1644, 54 negative triangles
+555: dt=0.1644, 54 negative triangles
+556: dt=0.1644, 55 negative triangles
+557: dt=0.1644, 55 negative triangles
+558: dt=0.1562, 55 negative triangles
+559: dt=0.1562, 54 negative triangles
+560: dt=0.1562, 54 negative triangles
+561: dt=0.1562, 55 negative triangles
+562: dt=0.1562, 55 negative triangles
+563: dt=0.1562, 54 negative triangles
+564: dt=0.1562, 55 negative triangles
+565: dt=0.1562, 54 negative triangles
+566: dt=0.1562, 54 negative triangles
+567: dt=0.1562, 55 negative triangles
+568: dt=0.1484, 55 negative triangles
+569: dt=0.1484, 55 negative triangles
+570: dt=0.1484, 55 negative triangles
+571: dt=0.1484, 54 negative triangles
+572: dt=0.1484, 54 negative triangles
+573: dt=0.1484, 54 negative triangles
+574: dt=0.1484, 56 negative triangles
+575: dt=0.1484, 54 negative triangles
+576: dt=0.1484, 54 negative triangles
+577: dt=0.1484, 55 negative triangles
+578: dt=0.1410, 56 negative triangles
+579: dt=0.1410, 54 negative triangles
+580: dt=0.1410, 54 negative triangles
+581: dt=0.1410, 55 negative triangles
+582: dt=0.1410, 54 negative triangles
+583: dt=0.1410, 55 negative triangles
+584: dt=0.1410, 54 negative triangles
+585: dt=0.1410, 55 negative triangles
+586: dt=0.1410, 55 negative triangles
+587: dt=0.1410, 56 negative triangles
+588: dt=0.1339, 54 negative triangles
+589: dt=0.1339, 54 negative triangles
+590: dt=0.1339, 54 negative triangles
+591: dt=0.1339, 55 negative triangles
+592: dt=0.1339, 54 negative triangles
+593: dt=0.1339, 55 negative triangles
+594: dt=0.1339, 54 negative triangles
+595: dt=0.1339, 54 negative triangles
+596: dt=0.1339, 54 negative triangles
+597: dt=0.1339, 56 negative triangles
+598: dt=0.1272, 55 negative triangles
+599: dt=0.1272, 55 negative triangles
+600: dt=0.1272, 55 negative triangles
+601: dt=0.1272, 54 negative triangles
+602: dt=0.1272, 54 negative triangles
+603: dt=0.1272, 54 negative triangles
+604: dt=0.1272, 54 negative triangles
+605: dt=0.1272, 55 negative triangles
+606: dt=0.1272, 54 negative triangles
+607: dt=0.1272, 55 negative triangles
+608: dt=0.1209, 55 negative triangles
+609: dt=0.1209, 55 negative triangles
+610: dt=0.1209, 55 negative triangles
+611: dt=0.1209, 55 negative triangles
+612: dt=0.1209, 54 negative triangles
+613: dt=0.1209, 54 negative triangles
+614: dt=0.1209, 54 negative triangles
+615: dt=0.1209, 55 negative triangles
+616: dt=0.1209, 55 negative triangles
+617: dt=0.1209, 55 negative triangles
+618: dt=0.1148, 54 negative triangles
+619: dt=0.1148, 54 negative triangles
+620: dt=0.1148, 54 negative triangles
+621: dt=0.1148, 54 negative triangles
+622: dt=0.1148, 56 negative triangles
+623: dt=0.1148, 54 negative triangles
+624: dt=0.1148, 56 negative triangles
+625: dt=0.1148, 54 negative triangles
+626: dt=0.1148, 54 negative triangles
+627: dt=0.1148, 55 negative triangles
+628: dt=0.1091, 54 negative triangles
+629: dt=0.1091, 55 negative triangles
+630: dt=0.1091, 54 negative triangles
+631: dt=0.1091, 55 negative triangles
+632: dt=0.1091, 56 negative triangles
+633: dt=0.1091, 56 negative triangles
+634: dt=0.1091, 56 negative triangles
+635: dt=0.1091, 55 negative triangles
+636: dt=0.1091, 55 negative triangles
+637: dt=0.1091, 57 negative triangles
+638: dt=0.1036, 55 negative triangles
+639: dt=0.1036, 56 negative triangles
+640: dt=0.1036, 56 negative triangles
+641: dt=0.1036, 55 negative triangles
+642: dt=0.1036, 55 negative triangles
+643: dt=0.1036, 55 negative triangles
+644: dt=0.1036, 55 negative triangles
+645: dt=0.1036, 57 negative triangles
+646: dt=0.1036, 56 negative triangles
+647: dt=0.1036, 57 negative triangles
+648: dt=0.0984, 58 negative triangles
+649: dt=0.0984, 56 negative triangles
+650: dt=0.0984, 56 negative triangles
+651: dt=0.0984, 57 negative triangles
+652: dt=0.0984, 58 negative triangles
+653: dt=0.0984, 56 negative triangles
+654: dt=0.0984, 56 negative triangles
+655: dt=0.0984, 57 negative triangles
+656: dt=0.0984, 57 negative triangles
+657: dt=0.0984, 56 negative triangles
+658: dt=0.0935, 56 negative triangles
+659: dt=0.0935, 58 negative triangles
+660: dt=0.0935, 56 negative triangles
+661: dt=0.0935, 56 negative triangles
+662: dt=0.0935, 56 negative triangles
+663: dt=0.0935, 57 negative triangles
+664: dt=0.0935, 56 negative triangles
+665: dt=0.0935, 56 negative triangles
+666: dt=0.0935, 57 negative triangles
+667: dt=0.0935, 56 negative triangles
+668: dt=0.0888, 57 negative triangles
+669: dt=0.0888, 56 negative triangles
+670: dt=0.0888, 57 negative triangles
+671: dt=0.0888, 57 negative triangles
+672: dt=0.0888, 56 negative triangles
+673: dt=0.0888, 56 negative triangles
+674: dt=0.0888, 56 negative triangles
+675: dt=0.0888, 58 negative triangles
+676: dt=0.0888, 56 negative triangles
+677: dt=0.0888, 57 negative triangles
+678: dt=0.0844, 57 negative triangles
+679: dt=0.0844, 56 negative triangles
+680: dt=0.0844, 56 negative triangles
+681: dt=0.0844, 57 negative triangles
+682: dt=0.0844, 56 negative triangles
+683: dt=0.0844, 57 negative triangles
+684: dt=0.0844, 56 negative triangles
+685: dt=0.0844, 57 negative triangles
+686: dt=0.0844, 56 negative triangles
+687: dt=0.0844, 57 negative triangles
+688: dt=0.0802, 56 negative triangles
+689: dt=0.0802, 56 negative triangles
+690: dt=0.0802, 57 negative triangles
+691: dt=0.0802, 56 negative triangles
+692: dt=0.0802, 56 negative triangles
+693: dt=0.0802, 56 negative triangles
+694: dt=0.0802, 59 negative triangles
+695: dt=0.0802, 56 negative triangles
+696: dt=0.0802, 56 negative triangles
+697: dt=0.0802, 57 negative triangles
+698: dt=0.0762, 56 negative triangles
+699: dt=0.0762, 56 negative triangles
+700: dt=0.0762, 57 negative triangles
+701: dt=0.0762, 57 negative triangles
+702: dt=0.0762, 57 negative triangles
+703: dt=0.0762, 57 negative triangles
+704: dt=0.0762, 57 negative triangles
+705: dt=0.0762, 57 negative triangles
+706: dt=0.0762, 58 negative triangles
+707: dt=0.0762, 58 negative triangles
+708: dt=0.0724, 58 negative triangles
+709: dt=0.0724, 57 negative triangles
+710: dt=0.0724, 57 negative triangles
+711: dt=0.0724, 57 negative triangles
+712: dt=0.0724, 58 negative triangles
+713: dt=0.0724, 57 negative triangles
+714: dt=0.0724, 58 negative triangles
+715: dt=0.0724, 57 negative triangles
+716: dt=0.0724, 58 negative triangles
+717: dt=0.0724, 57 negative triangles
+718: dt=0.0687, 57 negative triangles
+719: dt=0.0687, 58 negative triangles
+720: dt=0.0687, 57 negative triangles
+721: dt=0.0687, 58 negative triangles
+722: dt=0.0687, 57 negative triangles
+723: dt=0.0687, 58 negative triangles
+724: dt=0.0687, 58 negative triangles
+725: dt=0.0687, 57 negative triangles
+726: dt=0.0687, 57 negative triangles
+727: dt=0.0687, 57 negative triangles
+728: dt=0.0653, 58 negative triangles
+729: dt=0.0653, 57 negative triangles
+730: dt=0.0653, 57 negative triangles
+731: dt=0.0653, 59 negative triangles
+732: dt=0.0653, 58 negative triangles
+733: dt=0.0653, 57 negative triangles
+734: dt=0.0653, 57 negative triangles
+735: dt=0.0653, 57 negative triangles
+736: dt=0.0653, 57 negative triangles
+737: dt=0.0653, 59 negative triangles
+738: dt=0.0620, 58 negative triangles
+739: dt=0.0620, 58 negative triangles
+740: dt=0.0620, 57 negative triangles
+741: dt=0.0620, 57 negative triangles
+742: dt=0.0620, 57 negative triangles
+743: dt=0.0620, 57 negative triangles
+744: dt=0.0620, 59 negative triangles
+745: dt=0.0620, 57 negative triangles
+746: dt=0.0620, 57 negative triangles
+747: dt=0.0620, 59 negative triangles
+748: dt=0.0589, 58 negative triangles
+749: dt=0.0589, 57 negative triangles
+750: dt=0.0589, 57 negative triangles
+751: dt=0.0589, 59 negative triangles
+752: dt=0.0589, 57 negative triangles
+753: dt=0.0589, 57 negative triangles
+754: dt=0.0589, 57 negative triangles
+755: dt=0.0589, 58 negative triangles
+756: dt=0.0589, 58 negative triangles
+757: dt=0.0589, 57 negative triangles
+758: dt=0.0560, 57 negative triangles
+759: dt=0.0560, 57 negative triangles
+760: dt=0.0560, 57 negative triangles
+761: dt=0.0560, 58 negative triangles
+762: dt=0.0560, 58 negative triangles
+763: dt=0.0560, 57 negative triangles
+764: dt=0.0560, 57 negative triangles
+765: dt=0.0560, 59 negative triangles
+766: dt=0.0560, 57 negative triangles
+767: dt=0.0560, 58 negative triangles
+768: dt=0.0532, 58 negative triangles
+769: dt=0.0532, 58 negative triangles
+770: dt=0.0532, 57 negative triangles
+771: dt=0.0532, 58 negative triangles
+772: dt=0.0532, 58 negative triangles
+773: dt=0.0532, 58 negative triangles
+774: dt=0.0532, 58 negative triangles
+775: dt=0.0532, 59 negative triangles
+776: dt=0.0532, 58 negative triangles
+777: dt=0.0532, 59 negative triangles
+778: dt=0.0505, 59 negative triangles
+779: dt=0.0505, 59 negative triangles
+780: dt=0.0505, 59 negative triangles
+781: dt=0.0505, 59 negative triangles
+782: dt=0.0505, 58 negative triangles
+783: dt=0.0505, 58 negative triangles
+784: dt=0.0505, 59 negative triangles
+785: dt=0.0505, 58 negative triangles
+786: dt=0.0505, 58 negative triangles
+787: dt=0.0505, 58 negative triangles
+788: dt=0.0480, 59 negative triangles
+789: dt=0.0480, 59 negative triangles
+790: dt=0.0480, 58 negative triangles
+791: dt=0.0480, 60 negative triangles
+792: dt=0.0480, 60 negative triangles
+793: dt=0.0480, 58 negative triangles
+794: dt=0.0480, 58 negative triangles
+795: dt=0.0480, 58 negative triangles
+796: dt=0.0480, 58 negative triangles
+797: dt=0.0480, 58 negative triangles
+798: dt=0.0456, 59 negative triangles
+799: dt=0.0456, 60 negative triangles
+800: dt=0.0456, 58 negative triangles
+801: dt=0.0456, 58 negative triangles
+802: dt=0.0456, 58 negative triangles
+803: dt=0.0456, 59 negative triangles
+804: dt=0.0456, 59 negative triangles
+805: dt=0.0456, 59 negative triangles
+806: dt=0.0456, 59 negative triangles
+807: dt=0.0456, 58 negative triangles
+808: dt=0.0433, 59 negative triangles
+809: dt=0.0433, 58 negative triangles
+810: dt=0.0433, 58 negative triangles
+811: dt=0.0433, 59 negative triangles
+812: dt=0.0433, 58 negative triangles
+813: dt=0.0433, 59 negative triangles
+814: dt=0.0433, 58 negative triangles
+815: dt=0.0433, 58 negative triangles
+816: dt=0.0433, 59 negative triangles
+817: dt=0.0433, 60 negative triangles
+818: dt=0.0412, 59 negative triangles
+819: dt=0.0412, 59 negative triangles
+820: dt=0.0412, 58 negative triangles
+821: dt=0.0412, 58 negative triangles
+822: dt=0.0412, 58 negative triangles
+823: dt=0.0412, 58 negative triangles
+824: dt=0.0412, 58 negative triangles
+825: dt=0.0412, 59 negative triangles
+826: dt=0.0412, 58 negative triangles
+827: dt=0.0412, 60 negative triangles
+828: dt=0.0391, 58 negative triangles
+829: dt=0.0391, 59 negative triangles
+830: dt=0.0391, 59 negative triangles
+831: dt=0.0391, 58 negative triangles
+832: dt=0.0391, 59 negative triangles
+833: dt=0.0391, 58 negative triangles
+834: dt=0.0391, 59 negative triangles
+835: dt=0.0391, 58 negative triangles
+836: dt=0.0391, 59 negative triangles
+837: dt=0.0391, 58 negative triangles
+838: dt=0.0371, 59 negative triangles
+839: dt=0.0371, 58 negative triangles
+840: dt=0.0371, 59 negative triangles
+841: dt=0.0371, 59 negative triangles
+842: dt=0.0371, 60 negative triangles
+843: dt=0.0371, 58 negative triangles
+844: dt=0.0371, 58 negative triangles
+845: dt=0.0371, 60 negative triangles
+846: dt=0.0371, 58 negative triangles
+847: dt=0.0371, 58 negative triangles
+848: dt=0.0353, 59 negative triangles
+849: dt=0.0353, 59 negative triangles
+850: dt=0.0353, 58 negative triangles
+851: dt=0.0353, 58 negative triangles
+852: dt=0.0353, 58 negative triangles
+853: dt=0.0353, 58 negative triangles
+854: dt=0.0353, 61 negative triangles
+855: dt=0.0353, 59 negative triangles
+856: dt=0.0353, 59 negative triangles
+857: dt=0.0353, 58 negative triangles
+858: dt=0.0335, 58 negative triangles
+859: dt=0.0335, 58 negative triangles
+860: dt=0.0335, 58 negative triangles
+861: dt=0.0335, 58 negative triangles
+862: dt=0.0335, 59 negative triangles
+863: dt=0.0335, 60 negative triangles
+864: dt=0.0335, 58 negative triangles
+865: dt=0.0335, 58 negative triangles
+866: dt=0.0335, 60 negative triangles
+867: dt=0.0335, 58 negative triangles
+868: dt=0.0319, 59 negative triangles
+869: dt=0.0319, 58 negative triangles
+870: dt=0.0319, 59 negative triangles
+871: dt=0.0319, 58 negative triangles
+872: dt=0.0319, 59 negative triangles
+873: dt=0.0319, 58 negative triangles
+874: dt=0.0319, 58 negative triangles
+875: dt=0.0319, 59 negative triangles
+876: dt=0.0319, 58 negative triangles
+877: dt=0.0319, 59 negative triangles
+878: dt=0.0303, 58 negative triangles
+879: dt=0.0303, 60 negative triangles
+880: dt=0.0303, 58 negative triangles
+881: dt=0.0303, 59 negative triangles
+882: dt=0.0303, 59 negative triangles
+883: dt=0.0303, 58 negative triangles
+884: dt=0.0303, 59 negative triangles
+885: dt=0.0303, 58 negative triangles
+886: dt=0.0303, 58 negative triangles
+887: dt=0.0303, 58 negative triangles
+888: dt=0.0287, 58 negative triangles
+889: dt=0.0287, 59 negative triangles
+890: dt=0.0287, 59 negative triangles
+891: dt=0.0287, 59 negative triangles
+892: dt=0.0287, 61 negative triangles
+893: dt=0.0287, 58 negative triangles
+894: dt=0.0287, 58 negative triangles
+895: dt=0.0287, 59 negative triangles
+896: dt=0.0287, 58 negative triangles
+897: dt=0.0287, 58 negative triangles
+898: dt=0.0273, 58 negative triangles
+899: dt=0.0273, 61 negative triangles
+900: dt=0.0273, 58 negative triangles
+901: dt=0.0273, 58 negative triangles
+902: dt=0.0273, 59 negative triangles
+903: dt=0.0273, 59 negative triangles
+904: dt=0.0273, 59 negative triangles
+905: dt=0.0273, 58 negative triangles
+906: dt=0.0273, 60 negative triangles
+907: dt=0.0273, 58 negative triangles
+908: dt=0.0259, 59 negative triangles
+909: dt=0.0259, 59 negative triangles
+910: dt=0.0259, 58 negative triangles
+911: dt=0.0259, 58 negative triangles
+912: dt=0.0259, 58 negative triangles
+913: dt=0.0259, 59 negative triangles
+914: dt=0.0259, 59 negative triangles
+915: dt=0.0259, 59 negative triangles
+916: dt=0.0259, 58 negative triangles
+917: dt=0.0259, 60 negative triangles
+918: dt=0.0246, 58 negative triangles
+919: dt=0.0246, 59 negative triangles
+920: dt=0.0246, 59 negative triangles
+921: dt=0.0246, 58 negative triangles
+922: dt=0.0246, 58 negative triangles
+923: dt=0.0246, 58 negative triangles
+924: dt=0.0246, 58 negative triangles
+925: dt=0.0246, 58 negative triangles
+926: dt=0.0246, 60 negative triangles
+927: dt=0.0246, 60 negative triangles
+928: dt=0.0234, 59 negative triangles
+929: dt=0.0234, 60 negative triangles
+930: dt=0.0234, 58 negative triangles
+931: dt=0.0234, 58 negative triangles
+932: dt=0.0234, 58 negative triangles
+933: dt=0.0234, 59 negative triangles
+934: dt=0.0234, 58 negative triangles
+935: dt=0.0234, 59 negative triangles
+936: dt=0.0234, 58 negative triangles
+937: dt=0.0234, 59 negative triangles
+938: dt=0.0222, 58 negative triangles
+939: dt=0.0222, 58 negative triangles
+940: dt=0.0222, 59 negative triangles
+941: dt=0.0222, 58 negative triangles
+942: dt=0.0222, 60 negative triangles
+943: dt=0.0222, 58 negative triangles
+944: dt=0.0222, 58 negative triangles
+945: dt=0.0222, 59 negative triangles
+946: dt=0.0222, 58 negative triangles
+947: dt=0.0222, 59 negative triangles
+948: dt=0.0211, 58 negative triangles
+949: dt=0.0211, 58 negative triangles
+950: dt=0.0211, 60 negative triangles
+951: dt=0.0211, 58 negative triangles
+952: dt=0.0211, 58 negative triangles
+953: dt=0.0211, 58 negative triangles
+954: dt=0.0211, 60 negative triangles
+955: dt=0.0211, 59 negative triangles
+956: dt=0.0211, 58 negative triangles
+957: dt=0.0211, 59 negative triangles
+958: dt=0.0201, 59 negative triangles
+959: dt=0.0201, 58 negative triangles
+960: dt=0.0201, 58 negative triangles
+961: dt=0.0201, 58 negative triangles
+962: dt=0.0201, 58 negative triangles
+963: dt=0.0201, 60 negative triangles
+964: dt=0.0201, 60 negative triangles
+965: dt=0.0201, 58 negative triangles
+966: dt=0.0201, 58 negative triangles
+967: dt=0.0201, 60 negative triangles
+968: dt=0.0191, 58 negative triangles
+969: dt=0.0191, 58 negative triangles
+970: dt=0.0191, 58 negative triangles
+971: dt=0.0191, 59 negative triangles
+972: dt=0.0191, 60 negative triangles
+973: dt=0.0191, 58 negative triangles
+974: dt=0.0191, 58 negative triangles
+975: dt=0.0191, 58 negative triangles
+976: dt=0.0191, 59 negative triangles
+977: dt=0.0191, 58 negative triangles
+978: dt=0.0181, 60 negative triangles
+979: dt=0.0181, 58 negative triangles
+980: dt=0.0181, 59 negative triangles
+981: dt=0.0181, 60 negative triangles
+982: dt=0.0181, 58 negative triangles
+983: dt=0.0181, 58 negative triangles
+984: dt=0.0181, 59 negative triangles
+985: dt=0.0181, 59 negative triangles
+986: dt=0.0181, 58 negative triangles
+987: dt=0.0181, 58 negative triangles
+988: dt=0.0172, 58 negative triangles
+989: dt=0.0172, 59 negative triangles
+990: dt=0.0172, 59 negative triangles
+991: dt=0.0172, 59 negative triangles
+992: dt=0.0172, 59 negative triangles
+993: dt=0.0172, 59 negative triangles
+994: dt=0.0172, 58 negative triangles
+995: dt=0.0172, 58 negative triangles
+996: dt=0.0172, 58 negative triangles
+997: dt=0.0172, 58 negative triangles
+998: dt=0.0164, 60 negative triangles
+999: dt=0.0164, 59 negative triangles
+1000: dt=0.0164, 58 negative triangles
+1001: dt=0.0164, 59 negative triangles
+1002: dt=0.0164, 58 negative triangles
+1003: dt=0.0164, 58 negative triangles
+1004: dt=0.0164, 59 negative triangles
+1005: dt=0.0164, 58 negative triangles
+1006: dt=0.0164, 60 negative triangles
+1007: dt=0.0164, 59 negative triangles
+1008: dt=0.0155, 58 negative triangles
+1009: dt=0.0155, 58 negative triangles
+1010: dt=0.0155, 58 negative triangles
+1011: dt=0.0155, 59 negative triangles
+1012: dt=0.0155, 58 negative triangles
+1013: dt=0.0155, 59 negative triangles
+1014: dt=0.0155, 60 negative triangles
+1015: dt=0.0155, 58 negative triangles
+1016: dt=0.0155, 59 negative triangles
+1017: dt=0.0155, 58 negative triangles
+1018: dt=0.0148, 59 negative triangles
+1019: dt=0.0148, 59 negative triangles
+1020: dt=0.0148, 58 negative triangles
+1021: dt=0.0148, 60 negative triangles
+1022: dt=0.0148, 58 negative triangles
+1023: dt=0.0148, 58 negative triangles
+1024: dt=0.0148, 59 negative triangles
+1025: dt=0.0148, 60 negative triangles
+1026: dt=0.0148, 59 negative triangles
+1027: dt=0.0148, 60 negative triangles
+1028: dt=0.0140, 58 negative triangles
+1029: dt=0.0140, 58 negative triangles
+1030: dt=0.0140, 58 negative triangles
+1031: dt=0.0140, 59 negative triangles
+1032: dt=0.0140, 59 negative triangles
+1033: dt=0.0140, 58 negative triangles
+1034: dt=0.0140, 60 negative triangles
+1035: dt=0.0140, 59 negative triangles
+1036: dt=0.0140, 58 negative triangles
+1037: dt=0.0140, 58 negative triangles
+1038: dt=0.0133, 58 negative triangles
+1039: dt=0.0133, 58 negative triangles
+1040: dt=0.0133, 58 negative triangles
+1041: dt=0.0133, 59 negative triangles
+1042: dt=0.0133, 60 negative triangles
+1043: dt=0.0133, 58 negative triangles
+1044: dt=0.0133, 58 negative triangles
+1045: dt=0.0133, 59 negative triangles
+1046: dt=0.0133, 58 negative triangles
+1047: dt=0.0133, 59 negative triangles
+1048: dt=0.0127, 58 negative triangles
+1049: dt=0.0127, 58 negative triangles
+1050: dt=0.0127, 59 negative triangles
+1051: dt=0.0127, 60 negative triangles
+1052: dt=0.0127, 58 negative triangles
+1053: dt=0.0127, 58 negative triangles
+1054: dt=0.0127, 59 negative triangles
+1055: dt=0.0127, 58 negative triangles
+1056: dt=0.0127, 58 negative triangles
+1057: dt=0.0127, 60 negative triangles
+1058: dt=0.0120, 59 negative triangles
+1059: dt=0.0120, 58 negative triangles
+1060: dt=0.0120, 59 negative triangles
+1061: dt=0.0120, 59 negative triangles
+1062: dt=0.0120, 58 negative triangles
+1063: dt=0.0120, 59 negative triangles
+1064: dt=0.0120, 60 negative triangles
+1065: dt=0.0120, 58 negative triangles
+1066: dt=0.0120, 58 negative triangles
+1067: dt=0.0120, 59 negative triangles
+1068: dt=0.0114, 58 negative triangles
+1069: dt=0.0114, 59 negative triangles
+1070: dt=0.0114, 60 negative triangles
+1071: dt=0.0114, 59 negative triangles
+1072: dt=0.0114, 58 negative triangles
+1073: dt=0.0114, 58 negative triangles
+1074: dt=0.0114, 58 negative triangles
+1075: dt=0.0114, 59 negative triangles
+1076: dt=0.0114, 58 negative triangles
+1077: dt=0.0114, 59 negative triangles
+1078: dt=0.0108, 60 negative triangles
+1079: dt=0.0108, 58 negative triangles
+1080: dt=0.0108, 58 negative triangles
+1081: dt=0.0108, 58 negative triangles
+1082: dt=0.0108, 58 negative triangles
+1083: dt=0.0108, 58 negative triangles
+1084: dt=0.0108, 60 negative triangles
+1085: dt=0.0108, 59 negative triangles
+1086: dt=0.0108, 58 negative triangles
+1087: dt=0.0108, 59 negative triangles
+1088: dt=0.0103, 59 negative triangles
+1089: dt=0.0103, 58 negative triangles
+1090: dt=0.0103, 58 negative triangles
+1091: dt=0.0103, 59 negative triangles
+1092: dt=0.0103, 59 negative triangles
+1093: dt=0.0103, 58 negative triangles
+1094: dt=0.0103, 58 negative triangles
+1095: dt=0.0103, 58 negative triangles
+1096: dt=0.0103, 59 negative triangles
+1097: dt=0.0103, 59 negative triangles
+1098: dt=0.0098, 59 negative triangles
+1099: dt=0.0098, 60 negative triangles
+1100: dt=0.0098, 58 negative triangles
+1101: dt=0.0098, 58 negative triangles
+1102: dt=0.0098, 58 negative triangles
+1103: dt=0.0098, 58 negative triangles
+1104: dt=0.0098, 59 negative triangles
+1105: dt=0.0098, 59 negative triangles
+1106: dt=0.0098, 59 negative triangles
+1107: dt=0.0098, 58 negative triangles
+1108: dt=0.0098, 58 negative triangles
+1109: dt=0.0098, 58 negative triangles
+1110: dt=0.0098, 59 negative triangles
+1111: dt=0.0098, 60 negative triangles
+1112: dt=0.0098, 58 negative triangles
+1113: dt=0.0098, 58 negative triangles
+1114: dt=0.0098, 61 negative triangles
+1115: dt=0.0098, 58 negative triangles
+1116: dt=0.0098, 58 negative triangles
+1117: dt=0.0098, 58 negative triangles
+1118: dt=0.0098, 59 negative triangles
+1119: dt=0.0098, 58 negative triangles
+1120: dt=0.0098, 58 negative triangles
+1121: dt=0.0098, 61 negative triangles
+1122: dt=0.0098, 58 negative triangles
+1123: dt=0.0098, 60 negative triangles
+1124: dt=0.0098, 58 negative triangles
+1125: dt=0.0098, 59 negative triangles
+1126: dt=0.0098, 58 negative triangles
+1127: dt=0.0098, 58 negative triangles
+1128: dt=0.0098, 59 negative triangles
+1129: dt=0.0098, 59 negative triangles
+1130: dt=0.0098, 58 negative triangles
+1131: dt=0.0098, 58 negative triangles
+1132: dt=0.0098, 59 negative triangles
+1133: dt=0.0098, 58 negative triangles
+1134: dt=0.0098, 58 negative triangles
+1135: dt=0.0098, 61 negative triangles
+1136: dt=0.0098, 59 negative triangles
+1137: dt=0.0098, 58 negative triangles
+1138: dt=0.0098, 58 negative triangles
+1139: dt=0.0098, 58 negative triangles
+1140: dt=0.0098, 58 negative triangles
+1141: dt=0.0098, 60 negative triangles
+1142: dt=0.0098, 58 negative triangles
+writing registered surface to /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/xhemi/surf/rh.fsaverage_sym.sphere.reg...
+1143: dt=0.0098, 59 negative triangles
+1144: 58 negative triangles
+registration took 0.30 hours
+#VMPC# mris_register VmPeak  5067164
+FSRUNTIME@ mris_register  0.2960 hours 1 threads
+surfreg-Run-Time-Hours COLIN27_FS lhrh 1 0.58
+2021. 07. 06. (화) 17:38:50 KST
+surfreg done

@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT colin27
+START_TIME Thu Sep 7 12:42:19 EDT 2017
+END_TIME Fri Sep 8 00:19:35 EDT 2017
+RUNTIME_HOURS 11.621
+USER sjhong
+HOST gypsy
+PROCESSOR x86_64
+OS Linux
+UNAME Linux gypsy 4.4.19-i686-64-smp #1 SMP Wed Aug 31 17:29:59 EDT 2016 x86_64 x86_64 x86_64 GNU/Linux
+VERSION $Id: recon-all,v 1.379.2.73 2013/05/12 23:15:37 nicks Exp $
+CMDPATH /export01/local/freesurfer//bin/recon-all
+CMDARGS -i colin27_tal.nii -subjid colin27 -all

@@ -1,0 +1,8 @@
+Nodata
+1 230 230 230 255
+Euradiate
+2 40 149 236 255
+Infraradiate
+3 125 204 91 255
+Supraradiate
+4 249 249 22 255

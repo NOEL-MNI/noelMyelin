@@ -1,0 +1,194 @@
+2021. 07. 06. (화) 17:04:46 KST
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi
+/local_raid1/01_software/freesurfer//bin/recon-all
+-sb COLIN27_FS/xhemi -talairach
+subjid COLIN27_FS/xhemi
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data
+FREESURFER_HOME /local_raid1/01_software/freesurfer/
+Actual FREESURFER_HOME /local_raid1/01_software/freesurfer
+build-stamp.txt: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b
+Linux zeus 5.8.0-55-generic #62~20.04.1-Ubuntu SMP Wed Jun 2 08:55:04 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+cputime      unlimited
+filesize     unlimited
+datasize     unlimited
+stacksize    8192 kbytes
+coredumpsize 0 kbytes
+memoryuse    unlimited
+vmemoryuse   unlimited
+descriptors  1024 
+memorylocked 65536 kbytes
+maxproc      1541797 
+maxlocks     unlimited
+maxsignal    1541797 
+maxmessage   819200 
+maxnice      0 
+maxrtprio    0 
+maxrttime    unlimited
+
+              total        used        free      shared  buff/cache   available
+Mem:          376Gi        29Gi       318Gi       1.2Gi        27Gi       342Gi
+Swap:         501Gi          0B       501Gi
+
+########################################
+program versions used
+7.1.0 (freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b)
+7.1.0
+
+ProgramName: lta_convert  ProgramArguments: lta_convert -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_and  ProgramArguments: mri_and -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_annotation2label  ProgramArguments: mri_annotation2label -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_aparc2aseg  ProgramArguments: mri_aparc2aseg -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_surf2volseg  ProgramArguments: mri_surf2volseg -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_binarize  ProgramArguments: mri_binarize -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_ca_label  ProgramArguments: mri_ca_label -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_ca_normalize  ProgramArguments: mri_ca_normalize -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_ca_register  ProgramArguments: mri_ca_register -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_cc  ProgramArguments: mri_cc -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_compute_overlap  ProgramArguments: mri_compute_overlap -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_compute_seg_overlap  ProgramArguments: mri_compute_seg_overlap -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_concat  ProgramArguments: mri_concat -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_concatenate_lta  ProgramArguments: mri_concatenate_lta -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+mri_convert -all-info 
+ProgramName: mri_convert  ProgramArguments: mri_convert -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_diff  ProgramArguments: mri_diff -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_edit_wm_with_aseg  ProgramArguments: mri_edit_wm_with_aseg -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_em_register  ProgramArguments: mri_em_register -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_fill  ProgramArguments: mri_fill -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_fuse_segmentations  ProgramArguments: mri_fuse_segmentations -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_fwhm  ProgramArguments: mri_fwhm -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_gcut  ProgramArguments: mri_gcut -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_info  ProgramArguments: mri_info -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_label2label  ProgramArguments: mri_label2label -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_label2vol  ProgramArguments: mri_label2vol -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_log_likelihood  ProgramArguments: mri_log_likelihood -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_mask  ProgramArguments: mri_mask -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_matrix_multiply  ProgramArguments: mri_matrix_multiply -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_normalize  ProgramArguments: mri_normalize -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_normalize_tp2  ProgramArguments: mri_normalize_tp2 -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_or  ProgramArguments: mri_or -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_relabel_hypointensities  ProgramArguments: mri_relabel_hypointensities -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_relabel_nonwm_hypos  ProgramArguments: mri_relabel_nonwm_hypos -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_remove_neck  ProgramArguments: mri_remove_neck -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+7.1.0
+
+ProgramName: mri_robust_register  ProgramArguments: mri_robust_register -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+7.1.0
+
+ProgramName: mri_robust_template  ProgramArguments: mri_robust_template -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_anatomical_stats  ProgramArguments: mris_anatomical_stats -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_ca_label  ProgramArguments: mris_ca_label -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_calc  ProgramArguments: mris_calc -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_convert  ProgramArguments: mris_convert -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_curvature  ProgramArguments: mris_curvature -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_curvature_stats  ProgramArguments: mris_curvature_stats -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_diff  ProgramArguments: mris_diff -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_divide_parcellation  ProgramArguments: mris_divide_parcellation -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_segment  ProgramArguments: mri_segment -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_segstats  ProgramArguments: mri_segstats -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_euler_number  ProgramArguments: mris_euler_number -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_fix_topology  ProgramArguments: mris_fix_topology -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_topo_fixer  ProgramArguments: mris_topo_fixer -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_jacobian  ProgramArguments: mris_jacobian -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_label2annot  ProgramArguments: mris_label2annot -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_left_right_register  ProgramArguments: mris_left_right_register -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_place_surface  ProgramArguments: mris_place_surface -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mrisp_paint  ProgramArguments: mrisp_paint -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_register  ProgramArguments: mris_register -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_smooth  ProgramArguments: mris_smooth -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_sphere  ProgramArguments: mris_sphere -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_surface_stats  ProgramArguments: mris_surface_stats -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_stats2seg  ProgramArguments: mri_stats2seg -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_thickness  ProgramArguments: mris_thickness -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_thickness_diff  ProgramArguments: mris_thickness_diff -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_topo_fixer  ProgramArguments: mris_topo_fixer -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_surf2surf  ProgramArguments: mri_surf2surf -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_surf2vol  ProgramArguments: mri_surf2vol -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_surfcluster  ProgramArguments: mri_surfcluster -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mris_volmask  ProgramArguments: mris_volmask -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_tessellate  ProgramArguments: mri_tessellate -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_vol2surf  ProgramArguments: mri_vol2surf -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_vol2vol  ProgramArguments: mri_vol2vol -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_voldiff  ProgramArguments: mri_voldiff -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: mri_watershed  ProgramArguments: mri_watershed -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+ProgramName: tkregister2  ProgramArguments: tkregister2_cmdl -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+mri_motion_correct.fsl 7.1.0
+mri_convert -all-info 
+ProgramName: mri_convert  ProgramArguments: mri_convert -all-info  ProgramVersion: 7.1.0  TimeStamp: 2021/07/06-08:04:46-GMT  BuildTime: May 11 2020 13:48:51  BuildStamp: freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b  User: sjhong  Machine: zeus  Platform: Linux  PlatformVersion: 5.8.0-55-generic  CompilerName: GCC  CompilerVersion: 4.9.2
+Program nu_correct, built from:
+Package MNI N3, version 1.12.0, compiled by nicks@terrier (x86_64-unknown-linux-gnu) on 2015-06-19 at 01:25:34
+#######################################
+GCADIR /local_raid1/01_software/freesurfer//average
+GCA RB_all_2020-01-02.gca
+GCASkull RB_all_withskull_2020_01_02.gca
+AvgCurvTif folding.atlas.acfb40.noaparc.i12.2016-08-02.tif
+GCSDIR /local_raid1/01_software/freesurfer//average
+GCS DKaparc.atlas.acfb40.noaparc.i12.2016-08-02.gcs
+#######################################
+#--------------------------------------------
+#@# Talairach 2021. 07. 06. (화) 17:04:47 KST
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri
+
+ mri_nu_correct.mni --no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50 
+
+/usr/bin/bc
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri
+/local_raid1/01_software/freesurfer//bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50
+nIters 1
+mri_nu_correct.mni 7.1.0
+Linux zeus 5.8.0-55-generic #62~20.04.1-Ubuntu SMP Wed Jun 2 08:55:04 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+2021. 07. 06. (화) 17:04:47 KST
+Found /dev/shm , will use for temp dir
+tmpdir is /dev/shm/tmp.mri_nu_correct.mni.1373626
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o /dev/shm/tmp.mri_nu_correct.mni.1373626/nu0.mgz
+Using shrink factor: 4
+mri_convert /dev/shm/tmp.mri_nu_correct.mni.1373626/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+mri_convert /dev/shm/tmp.mri_nu_correct.mni.1373626/nu0.mgz orig_nu.mgz --like orig.mgz --conform 
+reading from /dev/shm/tmp.mri_nu_correct.mni.1373626/nu0.mgz...
+TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+INFO: transform src into the like-volume: orig.mgz
+writing to orig_nu.mgz...
+ 
+ 
+2021. 07. 06. (화) 17:07:50 KST
+mri_nu_correct.mni done
+@#@FSTIME  2021:07:06:17:04:47 mri_nu_correct.mni N 12 e 182.93 S 0.41 U 182.51 P 100% M 490904 F 0 R 167590 W 0 c 245 w 95 I 0 O 8672 L 23.30 19.66 19.85
+@#@FSLOADPOST 2021:07:06:17:07:50 mri_nu_correct.mni N 12 23.79 19.40 19.56
+
+ talairach_avi --i orig_nu.mgz --xfm transforms/talairach.auto.xfm 
+
+talairach_avi log file is transforms/talairach_avi.log...
+Started at 2021. 07. 06. (화) 17:07:50 KST
+Ended   at 2021. 07. 06. (화) 17:08:10 KST
+talairach_avi done
+@#@FSTIME  2021:07:06:17:07:50 talairach_avi N 4 e 20.55 S 1.33 U 13.22 P 70% M 255784 F 0 R 396884 W 0 c 56 w 144 I 0 O 295264 L 23.79 19.40 19.56
+@#@FSLOADPOST 2021:07:06:17:08:10 talairach_avi N 4 24.47 19.93 19.74
+
+ cp transforms/talairach.auto.xfm transforms/talairach.xfm 
+
+lta_convert --src orig.mgz --trg /local_raid1/01_software/freesurfer//average/mni305.cor.mgz --inxfm transforms/talairach.xfm --outlta transforms/talairach.xfm.lta --subject fsaverage --ltavox2vox
+7.1.0
+
+--src: orig.mgz src image (geometry).
+--trg: /local_raid1/01_software/freesurfer//average/mni305.cor.mgz trg image (geometry).
+--inmni: transforms/talairach.xfm input MNI/XFM transform.
+--outlta: transforms/talairach.xfm.lta output LTA.
+--s: fsaverage subject name
+--ltavox2vox: output LTA as VOX_TO_VOX transform.
+ LTA read, type : 1
+ 0.96934  -0.00383  -0.00977  -1.52206;
+ 0.01429   0.97494   0.03136  -2.36725;
+ 0.00031   0.04868   0.94962   0.04710;
+ 0.00000   0.00000   0.00000   1.00000;
+setting subject to fsaverage
+Writing  LTA to file transforms/talairach.xfm.lta...
+lta_convert successful.
+
+Started at 2021. 07. 06. (화) 17:04:46 KST 
+Ended   at 2021. 07. 06. (화) 17:08:12 KST
+#@#%# recon-all-run-time-hours 0.057
+recon-all -s COLIN27_FS/xhemi finished without error at 2021. 07. 06. (화) 17:08:12 KST

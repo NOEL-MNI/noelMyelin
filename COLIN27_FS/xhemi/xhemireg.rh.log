@@ -1,0 +1,276 @@
+/local_raid1/01_software/freesurfer//bin/xhemireg
+--s COLIN27_FS
+xhemireg 7.1.0
+2021. 07. 06. (화) 17:08:28 KST
+Linux zeus 5.8.0-55-generic #62~20.04.1-Ubuntu SMP Wed Jun 2 08:55:04 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+/local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/ 
+2021. 07. 06. (화) 17:08:28 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz orig --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.orig --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz orig --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.orig --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.orig
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.orig
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:31 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz white --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.white --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz white --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.white --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.white
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.white
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:33 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz pial --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.pial --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz pial --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.pial --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.pial
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.pial
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:35 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz smoothwm --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.smoothwm --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz smoothwm --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.smoothwm --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.smoothwm
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.smoothwm
+Applying linear registration transform
+-1.00000   0.00000   0.00000   1.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:38 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz sphere --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.sphere --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz sphere --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.sphere --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.sphere
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere
+Applying linear registration transform
+-1.00000   0.00000   0.00000   0.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+2021. 07. 06. (화) 17:08:40 KST
+mri_surf2surf --s COLIN27_FS --sval-xyz inflated --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.inflated --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat
+
+7.1.0
+
+setenv SUBJECTS_DIR /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/
+cd /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS
+mri_surf2surf --s COLIN27_FS --sval-xyz inflated --hemi rh --tval-xyz /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/mri/orig.mgz --tval /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.inflated --reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/lrrev.pure.register.dat 
+
+sysname  Linux
+hostname zeus
+machine  x86_64
+user     sjhong
+srcsubject = COLIN27_FS
+srcval     = (null)
+srctype    = 
+trgsubject = COLIN27_FS
+trgval     = /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.inflated
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = rh
+trghemi    = rh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.sphere.reg
+Loading source data
+Reading surface file /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data//COLIN27_FS/surf/rh.inflated
+Applying linear registration transform
+-1.00000   0.00000   0.00000   0.00000;
+ 0.00000   1.00000   0.00000   0.00000;
+ 0.00000   0.00000   1.00000   0.00000;
+ 0.00000   0.00000   0.00000   1.00000;
+Determinant of linear transform is negative, so reversing face order
+INFO: trgsubject = srcsubject
+Saving target data
+Reversing Face Order
+cp surf/rh.curv /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.curv
+cp surf/rh.sulc /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.sulc
+cp surf/rh.area /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.area
+cp surf/rh.volume /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.volume
+cp surf/rh.thickness /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.thickness
+cp surf/rh.inflated.H /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.inflated.H
+cp surf/rh.area.pial /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.area.pial
+cp surf/rh.area.mid /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.area.mid
+cp surf/rh.curv.pial /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.curv.pial
+cp surf/rh.inflated.K /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/surf/lh.inflated.K
+cp label/rh.aparc.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/label/lh.aparc.annot
+cp label/rh.BA.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/label/lh.BA.annot
+cp label/rh.aparc.a2009s.annot /local_raid1/03_user/seokjun/01_project/08_Vogt_Vogt_mapping/02_data/COLIN27_FS/xhemi/label/lh.aparc.a2009s.annot
+done hemi rh
+
+2021. 07. 06. (화) 17:08:43 KST
+xhemireg done

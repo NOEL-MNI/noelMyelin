@@ -1,0 +1,10 @@
+Nodata
+1 230 230 230 255
+Astriate
+2 53 121 253 255
+Bistriate
+3 16 190 186 255
+Unistriate
+4 200 193 41 255
+Unitostriate
+5 249 251 21 255

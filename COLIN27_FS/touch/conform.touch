@@ -1,0 +1,1 @@
+mri_convert /host/pandarus/local_raid/seles/colin27/mri/rawavg.mgz /host/pandarus/local_raid/seles/colin27/mri/orig.mgz --conform

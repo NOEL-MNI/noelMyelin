@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT COLIN27_FS/xhemi
+START_TIME 2021. 07. 06. (화) 17:04:46 KST
+END_TIME 2021. 07. 06. (화) 17:08:12 KST
+RUNTIME_HOURS 0.057
+USER sjhong
+HOST zeus
+PROCESSOR x86_64
+OS Linux
+UNAME Linux zeus 5.8.0-55-generic #62~20.04.1-Ubuntu SMP Wed Jun 2 08:55:04 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+VERSION 7.1.0 (freesurfer-linux-centos6_x86_64-7.1.0-20200511-813297b)
+CMDPATH /local_raid1/01_software/freesurfer//bin/recon-all
+CMDARGS -sb COLIN27_FS/xhemi -talairach

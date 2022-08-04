@@ -1,0 +1,1 @@
+mri_cc -aseg aseg.auto_noCCseg.mgz -o aseg.auto.mgz -lta /host/pandarus/local_raid/seles/colin27/mri/transforms/cc_up.lta colin27
