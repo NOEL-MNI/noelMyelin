@@ -32,7 +32,7 @@
     "open-source",
     "reproducible-research"
   ],
-  "license": "BSD 3-Clause",
+  "license": "bsd-3-clause",
   "upload_type": "dataset",
   "title": "Myeloarchitectonic cortical parcellation data for contemporary neuroimaging – The Vogt-Vogt legacy in the 21st century"
 }
