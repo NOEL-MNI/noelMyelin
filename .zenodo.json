@@ -1,0 +1,37 @@
+{
+  "creators": [
+    {
+      "affiliation": "Montreal Neurological Institute",
+      "name": "Foit, Niels Alexander"
+    },
+    {
+      "affiliation": "Montreal Neurological Institute",
+      "name": "Yung, Seles"
+    },
+    {
+      "affiliation": "Montreal Neurological Institute",
+      "name": "Lee, Hyo Min"
+    },
+    {
+      "affiliation": "Montreal Neurological Institute",
+      "name": "Bernasconi, Andrea"
+    },
+    {
+      "affiliation": "Montreal Neurological Institute",
+      "name": "Bernasconi, Neda"
+    },
+    {
+      "affiliation": "Montreal Neurological Institute",
+      "name": "Hong, Seok-Jun"
+    }
+  ],
+  "keywords": [
+    "medical-imaging",
+    "neuroscience",
+    "open-science",
+    "open-source",
+    "reproducible-research"
+  ],
+  "license": "BSD 3-Clause",
+  "upload_type": "dataset"
+}
