@@ -1,28 +1,60 @@
 {
+  "title": [
+    "Myeloarchitectonic cortical parcellation data for contemporary neuroimaging – The Vogt-Vogt legacy in the 21st century"
+  ],
   "creators": [
     {
-      "affiliation": "Montreal Neurological Institute",
-      "name": "Foit, Niels Alexander"
+      "ORCID": "http://orcid.org/0000-0003-3248-1665",
+      "authenticated-orcid": false,
+      "given": "Niels A.",
+      "family": "Foit",
+      "sequence": "first",
+      "affiliation": [
+        "Neuroimaging of Epilepsy Laboratory, McConnell Brain Imaging Center, Montreal Neurological Institute, Montreal, QC, Canada",
+        "Department of Neurosurgery, Medical Center - University of Freiburg, Freiburg, Germany"
+      ]
     },
     {
-      "affiliation": "Montreal Neurological Institute",
-      "name": "Yung, Seles"
+      "given": "Seles",
+      "family": "Yung",
+      "sequence": "additional",
+      "affiliation": [
+        "Neuroimaging of Epilepsy Laboratory, McConnell Brain Imaging Center, Montreal Neurological Institute, Montreal, QC, Canada"
+      ]
     },
     {
-      "affiliation": "Montreal Neurological Institute",
-      "name": "Lee, Hyo Min"
+      "given": "Hyo Min",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        "Neuroimaging of Epilepsy Laboratory, McConnell Brain Imaging Center, Montreal Neurological Institute, Montreal, QC, Canada"
+      ]
     },
     {
-      "affiliation": "Montreal Neurological Institute",
-      "name": "Bernasconi, Andrea"
+      "given": "Andrea",
+      "family": "Bernasconi",
+      "sequence": "additional",
+      "affiliation": [
+        "Neuroimaging of Epilepsy Laboratory, McConnell Brain Imaging Center, Montreal Neurological Institute, Montreal, QC, Canada"
+      ]
     },
     {
-      "affiliation": "Montreal Neurological Institute",
-      "name": "Bernasconi, Neda"
+      "given": "Neda",
+      "family": "Bernasconi",
+      "sequence": "additional",
+      "affiliation": [
+        "Neuroimaging of Epilepsy Laboratory, McConnell Brain Imaging Center, Montreal Neurological Institute, Montreal, QC, Canada"
+      ]
     },
     {
-      "affiliation": "Montreal Neurological Institute",
-      "name": "Hong, Seok-Jun"
+      "given": "Seok-Jun",
+      "family": "Hong",
+      "sequence": "additional",
+      "affiliation": [
+        "Center for the Developing Brain, Child Mind Institute, NY, USA",
+        "Center for Neuroscience Imaging Research, Institute for Basic Science, Suwon, Korea",
+        "Department of Biomedical Engineering, Sungkyunkwan University, Suwon, Korea"
+      ]
     }
   ],
   "keywords": [
@@ -33,6 +65,5 @@
     "reproducible-research"
   ],
   "license": "bsd-3-clause",
-  "upload_type": "dataset",
-  "title": "Myeloarchitectonic cortical parcellation data for contemporary neuroimaging – The Vogt-Vogt legacy in the 21st century"
+  "upload_type": "dataset"
 }
